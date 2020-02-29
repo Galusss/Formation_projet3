@@ -9,17 +9,17 @@
  3. Mettre en œuvre des effets CSS graphiques avancés.
 
 ###### __Fonctionnement & contraintes :__ 
-*Le développement devra se faire en CSS. 
-*L'ensemble du site web devra être responsive. 
-*La page HTML devra passer la validation W3C sans erreur.
-*Aucun framework ne devra être utiliser. 
-*Le code CSS devra passer la validation W3C sans erreur. 
-*Des règles CSS @media et/ou des feuilles de styles dédiées identifiées par un attribut media doivent être utilisées.
-*Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML.
-*Le site doit être parfaitement compatible avec les dernières versions desktop de Chrome, Firefox et Safari.
+1. Le développement devra se faire en CSS. 
+2. L'ensemble du site web devra être responsive. 
+3. La page HTML devra passer la validation W3C sans erreur.
+4. Aucun framework ne devra être utiliser. 
+5. Le code CSS devra passer la validation W3C sans erreur. 
+6. Des règles CSS @media et/ou des feuilles de styles dédiées identifiées par un attribut media doivent être utilisées.
+7. Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML.
+8. Le site doit être parfaitement compatible avec les dernières versions desktop de Chrome, Firefox et Safari.
 
-#####__Livrables attendus :__ 
-*Un site web comprenant...*
+###### __Livrables attendus :__ 
+__Un site web comprenant...__
 __1.__ Une page d’accueil avec le logo de l’entreprise, un espace contenant les 4 menus, une section “prochainement” et les rubriques « Mention légales » et « Contactez-nous ».
 __2.__ 4 pages contenant chacune le menu d’un restaurant. Au clic sur le menu sur la page d’accueil, l’utilisateur est redirigé vers la page du menu.
 __3.__ Au clic sur “Mentions légales”, une nouvelle page s’ouvre.
