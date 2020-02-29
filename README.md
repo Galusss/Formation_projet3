@@ -9,14 +9,14 @@
  3. Mettre en œuvre des effets CSS graphiques avancés.
 
 ######__Fonctionnement & contraintes :__ 
-__1.__ Le développement devra se faire en CSS. 
-__2.__ L'ensemble du site web devra être responsive. 
-__3.__ La page HTML devra passer la validation W3C sans erreur.
-__4.__ Aucun framework ne devra être utiliser. 
-__5.__ Le code CSS devra passer la validation W3C sans erreur. 
-__6.__ Des règles CSS @media et/ou des feuilles de styles dédiées identifiées par un attribut media doivent être utilisées.
-__7.__ Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML.
-__8.__ Le site doit être parfaitement compatible avec les dernières versions desktop de Chrome, Firefox et Safari.
+*__1.__ Le développement devra se faire en CSS. 
+*__2.__ L'ensemble du site web devra être responsive. 
+*__3.__ La page HTML devra passer la validation W3C sans erreur.
+*__4.__ Aucun framework ne devra être utiliser. 
+*__5.__ Le code CSS devra passer la validation W3C sans erreur. 
+*__6.__ Des règles CSS @media et/ou des feuilles de styles dédiées identifiées par un attribut media doivent être utilisées.
+*__7.__ Aucun code CSS ne devra être appliqué via un attribut style dans une balise HTML.
+*__8.__ Le site doit être parfaitement compatible avec les dernières versions desktop de Chrome, Firefox et Safari.
 
 ######__Livrables attendus :__ 
 *Un site web comprenant...*
