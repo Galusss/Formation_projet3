@@ -1,9 +1,9 @@
 ## Formation_projet3
 #### Formation Développeur Web OpenclassRooms (P3)
 
-###__Exercice :__ Réaliser un site web qui soit responsive en respectant un cahier des charges, des contraitres et une maquette.
+### __Exercice :__ Réaliser un site web qui soit responsive en respectant un cahier des charges, des contraitres et une maquette.
 
-####__Compétences évaluées :__
+#### __Compétences évaluées :__
  1. Assurer la cohérence graphique d'un site web.
  2. Mettre en place une structure de navigation pour un site web.
  3. Mettre en œuvre des effets CSS graphiques avancés.
