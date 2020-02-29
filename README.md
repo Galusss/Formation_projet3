@@ -19,13 +19,15 @@
 8. Le site doit être parfaitement compatible avec les dernières versions desktop de Chrome, Firefox et Safari.
 
 ##### __Livrables attendus :__ 
+
 *Un site web comprenant...*
 1. Une page d’accueil avec le logo de l’entreprise, un espace contenant les 4 menus, une section “prochainement” et les rubriques « Mention légales » et « Contactez-nous ».
 2. 4 pages contenant chacune le menu d’un restaurant. Au clic sur le menu sur la page d’accueil, l’utilisateur est redirigé vers la page du menu.
 3. Au clic sur “Mentions légales”, une nouvelle page s’ouvre.
 4. Au clic sur “Contactez-nous”, un renvoi vers une adresse mail est effectué.
 5. Le header (contenant le logo de l’entreprise) et le footer (contenant “Mentions légales” et “Contactez-nous) sont présents sur toutes les pages.
-6. Le footer doit rester visible même si l’on scrolle.
+6. Le footer doit rester visible même si l’on scrolle.  
+
 *Des effets graphiques...*
 1. Pour chaque item de type menu, une animation qui fait un zoom sur l'image devra être intégrée, avec un effet de fondu (réduire l'opacité) sans faire grossir le cadre initial.
 2. Dans la section prochainement, des points de suspension devront s’animer progressivement. Ils pourront soit s’agiter comme quand quelqu’un tape un nouveau message, soit apparaître progressivement.
