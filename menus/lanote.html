@@ -7,11 +7,18 @@
         <meta name=viewport content="width=device-width, initial-scale=1">
         <title>La note enchantée</title>
 
+
+
 <!--#################### css ####################-->
         <link rel="stylesheet" href="css/lanote.css" type="text/css" title="lanote" media="screen">
         <script src="https://kit.fontawesome.com/836800d8d5.js" crossorigin="anonymous"></script><!--script Font Awesome-->
     </head>
 <!--#################### end css ####################-->
+
+
+
+    <body>
+        <div id="bloc_page_lanote"> <!-- Englobe tout le contenu de la page -->
 
 
 
@@ -23,34 +30,43 @@
 
 
 
-        <h1><span class="page_menus_titre">La note enchantée</span></h1>
+<!--#################### titre menu ####################-->
+        <h1><span class="page_menus_titre" title="La note enchantée">La note enchantée</span></h1>
+<!--#################### end titre menu ####################-->
 
 
 
 <!--#################### menu "La note enchantée" ####################-->
         <article class="page_lanote_menu" title="La note enchantée">
             <div class="titre_lanote"><div class="icone_lanote"><i class="fab fa-itunes-note"></i></div><h1>La note enchantée</h1></div>
-            <h2><span class="page_lanote_titre_menu">Prélude</span></h2>
-                <ul class="page_lanote_liste_menu">
-                    <li>Ravioles de foie gras accompagnés de leurs crème à la truffe <span class="page_lanote_prix">98€</span></li>
-                    <li>Cavia osciètre sur blini à la farine de blé noir <span class="page_lanote_prix">115€</span></li>
-                    <li>Homard et espuma de potiron mariné au zests d'orange <span class="page_lanote_prix">89€</span></li>
-                    <li>Foie gras de canard cuit entier, confiture de figue et pain toasté <span class="page_lanote_prix">105€</span></li>
-                </ul>
-            <h2><span class="page_lanote_titre_menu">Point d'orgue</span></h2>
-                <ul class="page_lanote_liste_menu">
-                    <li>Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave <span class="page_lanote_prix">102€</span></li>
-                    <li>Langoustine poêlée, purée de patate douce <span class="page_lanote_prix">205€</span></li>
-                    <li>Mijoté de queue de boeuf et riz sauvage au zests de citron <span class="page_lanote_prix">169€</span></li>
-                </ul>
-            <h2><span class="page_lanote_titre_menu">Mouvement final</span></h2>
-                <ul class="page_lanote_liste_menu">
-                    <li>Macaron noisette et chocolat, glace au caramel brun et sel de Guérande</li>
-                    <li>Baba au rhum revisité avec son coulis de citron</li>
-                    <li>Tarte au citron meringuée destructurée</li>
-                </ul>
+                <div class="prelude" title="Prélude">
+                <h2><span class="page_lanote_titre_menu">Prélude</span></h2>
+                    <ul class="page_lanote_liste_menu">
+                        <li>Ravioles de foie gras accompagnés de leurs crème à la truffe <span class="page_lanote_prix">98€</span></li>
+                        <li>Cavia osciètre sur blini à la farine de blé noir <span class="page_lanote_prix">115€</span></li>
+                        <li>Homard et espuma de potiron mariné au zests d'orange <span class="page_lanote_prix">89€</span></li>
+                        <li>Foie gras de canard cuit entier, confiture de figue et pain toasté <span class="page_lanote_prix">105€</span></li>
+                    </ul>
+                </div>
+                <div class="point_orgue" title="Point d'orgue">
+                <h2><span class="page_lanote_titre_menu">Point d'orgue</span></h2>
+                    <ul class="page_lanote_liste_menu">
+                        <li>Noix de coquilles Saint-Jacques sur lit de purée de céleri-rave <span class="page_lanote_prix">102€</span></li>
+                        <li>Langoustine poêlée, purée de patate douce <span class="page_lanote_prix">205€</span></li>
+                        <li>Mijoté de queue de boeuf et riz sauvage au zests de citron <span class="page_lanote_prix">169€</span></li>
+                    </ul>
+                </div>
+                <div class="mouvement_final" title="Mouvement Final">
+                <h2><span class="page_lanote_titre_menu">Mouvement final</span></h2>
+                    <ul class="page_lanote_liste_menu">
+                        <li>Macaron noisette et chocolat, glace au caramel brun et sel de Guérande</li>
+                        <li>Baba au rhum revisité avec son coulis de citron</li>
+                        <li>Tarte au citron meringuée destructurée</li>
+                    </ul>
+                </div>
                 <p><span class="page_lanote_footer_menu"><div class="icone_lanote"><i class="fab fa-itunes-note"></i></div>La note enchantée</p></div>
         </article>
+<!--#################### end menu "La note enchantée" ####################-->
 
 
 
@@ -58,9 +74,13 @@
         <footer class="informations">
             <div class="items_footer">
                 <p><span class="texte_footer" title="Mentions légales">Mentions légales</span></p>
-                <p><span class="texte_footer" title="Contact">Contact</span></p>
+                <p><span class="texte_footer" title="Contact"><a href="mailto:name@mail.com" title="Cliquez ici pour nous contactez !">Contact</a></span></p>
             </div>
         </footer>
 <!--#################### end footer ####################-->
 
+
+
+        </div> <!-- end "bloc_page_lanote" -->
+    </body>
 </html>
