@@ -63,7 +63,7 @@ header h1{
         /* ##### end MENU : "La note enchantée" #####*/
 
 
-        
+
         /* ##### MENU : "Le chic à la française" #####*/
 
         .menu_lechic{
@@ -80,3 +80,39 @@ header h1{
         }
 
         /* ##### end MENU : "Le chic à la française" #####*/
+
+
+
+         /* ##### MENU : "Le délice des papilles" #####*/
+
+        .menu_ledelice{
+            background-color: #F9F9F9;
+        }
+
+        .menu_ledelice h2{
+            color: #5076EA;
+        }
+
+        .texte_ledelice{
+            color: #2B91F8;
+        }
+
+        /* ##### MENU : end "Le délice des papilles" #####*/
+
+
+
+        /* ##### MENU : "La palette du goût" #####*/
+
+        .menu_lapalette{
+            background-color: #FDFFFD;
+        }
+
+        .menu_lapalette h2{
+            color: #5EAE4B;
+        }
+
+        .texte_lapalette{
+            color: #72BF56;
+        }
+
+        /* ##### end MENU : "La palette du goût" #####*/
