@@ -6,11 +6,14 @@
 
 body{
     margin: 0px;
-    padding: 0px;
 }
 
 #bloc_page{
     font-size: 15px;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* ##### end BALISES GENERALE #####*/
@@ -33,3 +36,47 @@ header h1{
 }
 
 /* ##### end HEADER #####*/
+
+
+
+/* ##### MENUS #####*/
+
+#corps_contenu{
+
+}
+
+        /* ##### MENU : "La note enchantée" #####*/
+
+        .menu_lanote{
+            background-color: #FCDFDB;
+            color: #3C1218;
+        }
+
+        .icone_lanote{
+            color: #F78F6A;
+        }
+
+        .texte_lanote{
+            color: #3C1218;
+        }
+
+        /* ##### end MENU : "La note enchantée" #####*/
+
+
+        
+        /* ##### MENU : "Le chic à la française" #####*/
+
+        .menu_lechic{
+            background-color: #FFF5FE;
+            
+        }
+
+        .menu_lechic h2{
+            color: #9D62DB;
+        }
+
+        .texte_lechic{
+            color: #C77412;
+        }
+
+        /* ##### end MENU : "Le chic à la française" #####*/
