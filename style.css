@@ -22,7 +22,7 @@ a{
 
 /* ##### HEADER #####*/
 
-header{
+.titre_ohmyfood{
     background-color: #579C87;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -30,7 +30,7 @@ header{
     
 }
 
-header h1{
+.titre_ohmyfood h1{
     color: #FDCB46;
     font-size: 35px;
 }
@@ -128,7 +128,7 @@ header h1{
 /* ##### PROCHAINEMENT ##### */
 
 .prochainement{
-    margin-top: 120px;
+    margin-top: 40px;
     margin-left: 750px;
 }
 
@@ -158,3 +158,19 @@ header h1{
 }
 
 /* ##### end PROCHAINEMENT ##### */
+
+
+
+/* ##### FOOTER ##### */
+
+.informations{
+    background-color: #579C87; 
+    margin-top: 40px;
+}
+
+.texte_footer{
+    color: #FDCB46;
+    font-size: 20px;
+}
+
+/* ##### end FOOTER ##### */
