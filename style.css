@@ -31,8 +31,9 @@ a{
 }
 
 .titre_ohmyfood h1{
+    font-family: 'Source Sans Pro', Arial, sans-serif;
     color: #FDCB46;
-    font-size: 35px;
+    font-size: 50px;
 }
 
 /* ##### end HEADER #####*/
@@ -55,10 +56,19 @@ a{
 
         .icone_lanote{
             color: #F78F6A;
+            padding-top: 10px;
         }
 
         .texte_lanote{
             color: #3C1218;
+            font-family: cursive;
+            font-weight: bold;
+            font-style: italic;
+            font-size: 28px;
+        }
+        .titre_lanote h2{
+            font-family: 'Devonshire', Arial, sans-serif;
+            font-size: 22px;
         }
 
         /* ##### end MENU : "La note enchantée" #####*/
@@ -129,14 +139,14 @@ a{
 
 .prochainement{
     margin-top: 40px;
-    margin-left: 750px;
+    margin-left: 800px;
 }
 
 .bouton_prochainement p{
+    font-family: 'Titillium Web', Arial, sans-serif;
     font-size: 1.6em;
-    width: 400px;
-    height: 43px;
-    padding-top: 12px;
+    width: 300px;
+    height: 40px;
     text-align: center;
     color: #FDCB46;
     background: #579C87;
@@ -169,6 +179,7 @@ a{
 }
 
 .texte_footer{
+    font-family: 'Titillium Web', Arial, sans-serif;
     color: #FDCB46;
     font-size: 20px;
 }
