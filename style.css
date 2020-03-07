@@ -40,16 +40,17 @@ a{
 
 .titre_ohmyfood{
     background-color: #579C87;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    text-align: center;
-    
+    position:  absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .titre_ohmyfood h1{
     font-family: 'Source Sans Pro', Arial, sans-serif;
     color: #FDCB46;
     font-size: 50px;
+    text-align: center;
 }
 
 /* ##### end HEADER #####*/
@@ -59,7 +60,8 @@ a{
 /* ##### MENUS #####*/
 
 #corps_contenu{
-    margin-top: 50px;
+    padding-top:170px;
+    
 }
 
         /* ##### MENU : "La note enchantée" #####*/
@@ -181,14 +183,14 @@ a{
 
 /* ##### PROCHAINEMENT ##### */
 
-.prochainement{
-    margin-top: 40px;
-    margin-left: 800px;
+.prochainement {
+    position: fixed;
+    left: 42%;
 }
 
 .bouton_prochainement p{
     font-family: 'Titillium Web', Arial, sans-serif;
-    font-size: 1.6em;
+    font-size: 24px;
     width: 300px;
     height: 40px;
     text-align: center;
