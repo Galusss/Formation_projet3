@@ -2,6 +2,22 @@
 
 
 
+/* ##### FONTS ##### */
+
+@font-face{
+    font-family: 'CheapProFonts';
+    src: url('fonts/CheapProFonts/cpf serif pro-bold.otf');
+}
+
+@font-face{
+    font-family: 'Worstveld Sling';
+    src: url('fonts/Worstveld_Sling/worstveldslingbold.ttf');
+}
+
+/* ##### end FONTS ##### */
+
+
+
 /* ##### BALISES GENERALE #####*/
 
 body{
@@ -56,19 +72,20 @@ a{
 
         .icone_lanote{
             color: #F78F6A;
-            padding-top: 10px;
+            position: relative;
+            top: 30px;
         }
 
         .texte_lanote{
             color: #3C1218;
-            font-family: cursive;
+            font-family: cursive, Arial, sans-serif;
             font-weight: bold;
             font-style: italic;
             font-size: 28px;
         }
         .titre_lanote h2{
             font-family: 'Devonshire', Arial, sans-serif;
-            font-size: 22px;
+            font-size: 28px;
         }
 
         /* ##### end MENU : "La note enchantée" #####*/
@@ -89,6 +106,15 @@ a{
 
         .texte_lechic{
             color: #C77412;
+            font-family: 'CheapProFonts', Arial, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 26px;
+        }
+
+        .titre_lechic h2{
+            font-family: 'Croissant One', Arial, sans-serif;
+            font-size: 20px;
         }
 
         /* ##### end MENU : "Le chic à la française" #####*/
@@ -108,6 +134,15 @@ a{
 
         .texte_ledelice{
             color: #2B91F8;
+            font-family: 'Handlee', Arial, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 28px;
+        }
+
+        .titre_ledelice h2{
+            font-family: 'Dancing Script', Arial, sans-serif;
+            font-size: 26px;
         }
 
         /* ##### MENU : end "Le délice des papilles" #####*/
@@ -127,6 +162,15 @@ a{
 
         .texte_lapalette{
             color: #72BF56;
+            font-family: 'Worstveld Sling', Arial, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 45px;
+        }
+
+        .titre_lapalette h2{
+            font-family: 'Kaushan Script', Arial, sans-serif;
+            font-size: 21px;
         }
 
         /* ##### end MENU : "La palette du goût" #####*/
@@ -162,9 +206,7 @@ a{
 .bouton_prochainement p:active{
     color: #FDCB46;
     background: #579C87;
-    background: linear-gradient( #4ac49d, #46cea1);
-    box-shadow: 1px 1px 10px black inset, 
-                
+    background: linear-gradient( #4ac49d, #46cea1);            
 }
 
 /* ##### end PROCHAINEMENT ##### */
@@ -175,7 +217,10 @@ a{
 
 .informations{
     background-color: #579C87; 
-    margin-top: 40px;
+    position:  absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .texte_footer{
