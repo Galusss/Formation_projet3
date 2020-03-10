@@ -20,12 +20,15 @@
 
 /* ##### BALISES GENERALE #####*/
 
-body{
-    margin: 0px;
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-#bloc_page{
-    font-size: 15px;
+body{
+    display: flex;
+	flex-direction: column;
 }
 
 a{
@@ -38,31 +41,31 @@ a{
 
 /* ##### HEADER #####*/
 
-.titre_ohmyfood{
+.header_infos{
+    display: flex;
+    justify-content: center;
     background-color: #579C87;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
 }
 
-.titre_ohmyfood h1{
+.header_infos h1{
     font-family: 'Source Sans Pro', Arial, sans-serif;
     color: #FDCB46;
     font-size: 50px;
-    text-align: center;
 }
 
 /* ##### end HEADER #####*/
 
 
 
-/* ##### MENUS #####*/
-
-#corps_contenu{
-    padding-top:170px;
-    
+#contenu_page{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
 }
+
+
+/* ##### MENUS #####*/
 
         /* ##### MENU : "La note enchantée" #####*/
 
@@ -74,8 +77,6 @@ a{
 
         .icone_lanote{
             color: #F78F6A;
-            position: relative;
-            top: 30px;
         }
 
         .texte_lanote{
@@ -184,19 +185,19 @@ a{
 /* ##### PROCHAINEMENT ##### */
 
 .prochainement {
-    position: fixed;
-    left: 42%;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .bouton_prochainement p{
     font-family: 'Titillium Web', Arial, sans-serif;
     font-size: 24px;
-    width: 300px;
-    height: 40px;
-    text-align: center;
     color: #FDCB46;
     background: #579C87;
     border-radius: 8px;
+    width: 240px;
+    text-align: center;
 }
 
 .bouton_prochainement p:hover{
@@ -217,12 +218,18 @@ a{
 
 /* ##### FOOTER ##### */
 
-.informations{
-    background-color: #579C87; 
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+.footer_infos{
+    background-color: #579C87;
+    margin-top: auto;
+}
+
+.items_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    
 }
 
 .texte_footer{
