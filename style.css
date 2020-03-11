@@ -73,10 +73,13 @@ a{
             background-color: #FCDFDB;
             color: #3C1218;
             text-align: center;
+            box-shadow: grey 0.02em 0.02em 0.02em 0.02em;
+            height: 320px;
+            width: 250px;
         }
 
         .icone_lanote{
-            color: #F78F6A;
+            color: #F78F6A;    
         }
 
         .texte_lanote{
@@ -91,6 +94,10 @@ a{
             font-size: 28px;
         }
 
+        .titre_lanote{
+            padding-top: 30px;
+        }
+
         /* ##### end MENU : "La note enchantée" #####*/
 
 
@@ -100,7 +107,9 @@ a{
         .menu_lechic{
             background-color: #FFF5FE;
             text-align: center;
-            
+            box-shadow: grey 0.02em 0.02em 0.02em 0.02em;
+            height: 320px;
+            width: 250px;
         }
 
         .menu_lechic h2{
@@ -113,11 +122,16 @@ a{
             font-weight: bold;
             font-style: normal;
             font-size: 26px;
+            
         }
 
         .titre_lechic h2{
             font-family: 'Croissant One', Arial, sans-serif;
             font-size: 20px;
+        }
+
+        .titre_lechic{
+            padding-top: 99px;
         }
 
         /* ##### end MENU : "Le chic à la française" #####*/
@@ -129,6 +143,9 @@ a{
         .menu_ledelice{
             background-color: #F9F9F9;
             text-align: center;
+            box-shadow: grey 0.02em 0.02em 0.02em 0.02em;
+            height: 320px;
+            width: 250px;
         }
 
         .menu_ledelice h2{
@@ -148,6 +165,10 @@ a{
             font-size: 26px;
         }
 
+        .titre_ledelice{
+            padding-top: 88px;
+        }
+
         /* ##### MENU : end "Le délice des papilles" #####*/
 
 
@@ -157,6 +178,9 @@ a{
         .menu_lapalette{
             background-color: #FDFFFD;
             text-align: center;
+            box-shadow: grey 0.02em 0.02em 0.02em 0.02em;
+            height: 320px;
+            width: 250px;
         }
 
         .menu_lapalette h2{
@@ -171,9 +195,8 @@ a{
             font-size: 45px;
         }
 
-        .titre_lapalette h2{
-            font-family: 'Kaushan Script', Arial, sans-serif;
-            font-size: 21px;
+        .titre_lapalette{
+            padding-top: 88px;
         }
 
         /* ##### end MENU : "La palette du goût" #####*/
@@ -239,3 +262,4 @@ a{
 }
 
 /* ##### end FOOTER ##### */
+
