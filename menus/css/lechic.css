@@ -40,7 +40,7 @@ ul{
     display: flex;
     justify-content: center;
     align-self: center;
-    min-width: 800px;
+    width: 800px;
     height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -72,8 +72,7 @@ ul{
 
 .page_lechic_menu{
     font-family: 'CheapProFonts', Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 14px;
 }
 
  #bloc_page_lechic h3{
@@ -81,28 +80,21 @@ ul{
 }
 
 .titre_lechic{
-    text-align: center;
     margin-top: 90px;
+    text-align: center;
     color: #9D62DB;
-    font-family: 'Devonshire', Arial, sans-serif;
-    font-size: 22px;
+    font-size: 21px;
     font-family: 'Croissant One', Arial, sans-serif;
-}
-
-.texte_lechic{       
-    font-style: italic;
-    font-size: 28px;
 }
 
 .page_lechic_prix{
     display: flex;
     justify-content: flex-end;
+    font-weight: 600;
 }
 
 .page_lechic_menu h3{
-    font-weight: bolder;
-    font-style: normal;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .titre_en_appetit{
@@ -110,6 +102,7 @@ ul{
 }
 
 .en_appetit{
+    font-weight: lighter;
     color: #C77412;
     margin-top: 90px;
     margin-bottom: 45px;
@@ -120,6 +113,7 @@ ul{
 }
 
 .plaisir_papilles{
+    font-weight: lighter;
     color: #A56799;
     margin-top: 45px;
     margin-bottom: 45px;
@@ -130,6 +124,7 @@ ul{
 }
 
 .gourmandises{
+    font-weight: lighter;
     margin-top: 45px;
     margin-bottom: 180px;
     color: #6E4CCC;
