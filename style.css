@@ -198,7 +198,7 @@ a{
     padding-bottom: 50px;
 }
 
-.bouton_prochainement p{
+.bouton_prochainement h2{
     font-family: 'Titillium Web', Arial, sans-serif;
     font-size: 30px;
     color: #FDCB46;
@@ -208,13 +208,13 @@ a{
     text-align: center;
 }
 
-.bouton_prochainement p:hover{
+.bouton_prochainement h2:hover{
     color: blue;
     background: #4ac49d;
     background: linear-gradient( #4ac49d, #46cea1);
 }
 
-.bouton_prochainement p:active{
+.bouton_prochainement h2:active{
     color: #FDCB46;
     background: #579C87;
     background: linear-gradient( #4ac49d, #46cea1);            
