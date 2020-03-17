@@ -56,8 +56,7 @@ a{
     margin-top: 50px;
 }
 
-/* ##### MENU : "La note enchantée" #####*/
-
+/* ##### (MENUS) "La note enchantée" #####*/
 .menu_lanote{
     background-color: #FCDFDB;
     color: #3C1218;
@@ -69,60 +68,55 @@ a{
 }
 
 .icone_lanote{
-            color: #F78F6A;    
-        }
+    color: #F78F6A;    
+}
 
-        .texte_lanote{
-            color: #3C1218;
-            font-family: cursive, Arial, sans-serif;
-            font-style: italic;
-            font-size: 28px;
-        }
+.texte_lanote{
+    color: #3C1218;
+    font-family: cursive, Arial, sans-serif;
+    font-style: italic;
+    font-size: 28px;
+}
 
-        .lanote_style{
-            font-family: 'Devonshire', Arial, sans-serif;
-            font-size: 28px;
-        }
+.lanote_style{
+    font-family: 'Devonshire', Arial, sans-serif;
+    font-size: 28px;
+}
 
-        .titre_lanote{
-            padding-top: 85px;
-        }
+.titre_lanote{
+    padding-top: 85px;
+}
+/* ##### (MENUS) end "La note enchantée" #####*/
 
-        /* ##### end MENU : "La note enchantée" #####*/
+/* ##### (MENUS) "Le chic à la française" #####*/
+.menu_lechic{
+    background-color: #FFF5FE;
+    text-align: center;
+    box-shadow: black 0.012em 0.012em 0.012em 0.012em;
+    height: 450px;
+    width: 420px;
+    margin-left: 25px;
+}
 
+.menu_lechic h2{
+    color: #9D62DB;
+}
 
-
-        /* ##### MENU : "Le chic à la française" #####*/
-
-        .menu_lechic{
-            background-color: #FFF5FE;
-            text-align: center;
-            box-shadow: black 0.012em 0.012em 0.012em 0.012em;
-            height: 450px;
-            width: 420px;
-            margin-left: 25px;
-        }
-
-        .menu_lechic h2{
-            color: #9D62DB;
-        }
-
-        .texte_lechic{
-            color: #C77412;
-            font-family: 'CheapProFonts', Arial, sans-serif;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 26px;
+.texte_lechic{
+    color: #C77412;
+    font-family: 'CheapProFonts', Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 26px;
             
-        }
+}
 
-        .titre_lechic h2{
-            font-family: 'Croissant One', Arial, sans-serif;
-            font-size: 20px;
-            padding-top: 160px;
-        }
-
-        /* ##### end MENU : "Le chic à la française" #####*/
+.titre_lechic h2{
+    font-family: 'Croissant One', Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 160px;
+}
+/* ##### (MENUS) end "Le chic à la française" #####*/
 
 
 .flex_menu2{
@@ -131,70 +125,64 @@ a{
     margin-top: 50px;
 }
 
-         /* ##### MENU : "Le délice des papilles" #####*/
+/* ##### (MENUS) "Le délice des papilles" #####*/
+.menu_ledelice{
+    background-color: #F9F9F9;
+    text-align: center;
+    box-shadow: black 0.012em 0.012em 0.012em 0.012em;
+    height: 450px;
+    width: 420px;
+    margin-right: 25px;
+}
 
-        .menu_ledelice{
-            background-color: #F9F9F9;
-            text-align: center;
-            box-shadow: black 0.012em 0.012em 0.012em 0.012em;
-            height: 450px;
-            width: 420px;
-            margin-right: 25px;
-        }
+.menu_ledelice h2{
+    color: #5076EA;
+}
 
-        .menu_ledelice h2{
-            color: #5076EA;
-        }
+.texte_ledelice{
+    color: #2B91F8;
+    font-family: 'Handlee', Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 28px;
+}
 
-        .texte_ledelice{
-            color: #2B91F8;
-            font-family: 'Handlee', Arial, sans-serif;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 28px;
-        }
+.titre_ledelice h2{
+    font-family: 'Dancing Script', Arial, sans-serif;
+    font-size: 26px;
+}
 
-        .titre_ledelice h2{
-            font-family: 'Dancing Script', Arial, sans-serif;
-            font-size: 26px;
-        }
+.titre_ledelice{
+    padding-top: 140px;
+}
+/* ##### (MENUS) end "Le délice des papilles" #####*/
 
-        .titre_ledelice{
-            padding-top: 140px;
-        }
+/* ##### (MENUS) "La palette du goût" #####*/
+.menu_lapalette{
+    background-color: #FDFFFD;
+    text-align: center;
+    box-shadow: black 0.012em 0.012em 0.012em 0.012em;
+    height: 450px;
+    width: 420px;
+    margin-left: 25px;
+}
 
-        /* ##### MENU : end "Le délice des papilles" #####*/
+.menu_lapalette h2{
+    color: #5EAE4B;
+}
 
+.texte_lapalette{
+    color: #72BF56;
+    font-family: 'Worstveld Sling', Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 45px;
+}
 
-
-        /* ##### MENU : "La palette du goût" #####*/
-
-        .menu_lapalette{
-            background-color: #FDFFFD;
-            text-align: center;
-            box-shadow: black 0.012em 0.012em 0.012em 0.012em;
-            height: 450px;
-            width: 420px;
-            margin-left: 25px;
-        }
-
-        .menu_lapalette h2{
-            color: #5EAE4B;
-        }
-
-        .texte_lapalette{
-            color: #72BF56;
-            font-family: 'Worstveld Sling', Arial, sans-serif;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 45px;
-        }
-
-        .titre_lapalette{
-            padding-top: 140px;
-        }
-
-        /* ##### end MENU : "La palette du goût" #####*/
+.titre_lapalette{
+    padding-top: 140px;
+}
+/* ##### (MENUS) end "La palette du goût" #####*/
 
 /* ##### end MENUS #####*/
 

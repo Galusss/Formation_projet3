@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url("../html/css/footer.css");
+@import url("../html/css/header.css");
 
 body{
     height: 100%;
@@ -7,23 +9,24 @@ body{
     font-family: Verdana, sans-serif;
 }
 
-h1{
+header{
+    margin-bottom: 50px;
+}
+
+.fin-mention{
+    padding-top: 40px;
+}
+
+h1, h2, h3, p, ul{
     text-align: center;
-    color: grey;
-    font-size: 30px;
+}
+
+ul{
+    list-style: none;
 }
 
 a{
-    color: red;
-}
-
-h1, h2{
-    font-weight: bold;
-    font-style: italic;
-    font-family: Arial, sans-serif;
-}
-
-footer{
-    font-weight: bold;
+    text-decoration: none;
+    color: #FDCB46;
 }
 
