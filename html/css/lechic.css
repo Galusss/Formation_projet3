@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+
+/* ##### FEUILLES CSS ##### */
+
+@import url("footer.css"); /* Permet d'importer la feuille css qui met en place le footer */
+@import url("header.css"); /* Permet d'importer la feuille css qui met en place le header */
+@import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
+
+/* ##### end FEUILLES CSS ##### */
+
+
+
+/* ##### FONTS ##### */
+
+@font-face{
+    font-family: 'CheapProFonts';
+    src: url('../..fonts/CheapProFonts/cpf serif pro-bold.otf');
+}
+
+/* ##### end FONTS ##### */
+
+
+
+/* ##### BLOC PAGE (voir aussi menus_bloc_page.css) #####*/
+
+#bloc_page_lechic{
+    background-color: #FFF5FE;
+}
+
+/* ##### end BLOC PAGE ##### */
+
+
+
+/* ##### MENU ##### */
+
+.page_lechic_menu{
+    font-family: 'CheapProFonts', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.titre_lechic{
+    margin-top: 90px;
+    text-align: center;
+    color: #9D62DB;
+    font-size: 21px;
+    font-family: 'Croissant One', Arial, sans-serif;
+}
+
+.page_lechic_menu h3{
+    font-size: 17px;
+}
+
+.titre_en_appetit{
+    font-weight: 800;
+}
+
+.en_appetit{
+    font-weight: lighter;
+    color: #C77412;
+    margin-top: 90px;
+    margin-bottom: 45px;
+}
+
+.titre_papilles{
+    font-weight: 800;
+}
+
+.plaisir_papilles{
+    font-weight: lighter;
+    color: #A56799;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.titre_gourmandises{
+    font-weight: 700;
+}
+
+.gourmandises{
+    font-weight: lighter;
+    margin-top: 45px;
+    margin-bottom: 180px;
+    color: #6E4CCC;
+}
+
+/* ##### end MENU ##### */
+
+
+

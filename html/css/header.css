@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* ##### HEADER #####*/
+
+.header_infos{
+    display: flex;
+    justify-content: center;
+    background-color: #579C87;
+}
+
+.header_infos h1{
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    color: #FDCB46;
+    font-size: 50px;
+}
+
+/* ##### end HEADER #####*/

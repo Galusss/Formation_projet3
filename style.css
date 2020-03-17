@@ -2,6 +2,15 @@
 
 
 
+/* ##### FEUILLES CSS ##### */
+
+@import url("html/css/footer.css"); /* Permet d'importer la feuille css qui met en place le footer */
+@import url("html/css/header.css"); /* Permet d'importer la feuille css qui met en place le header */
+
+/* ##### end FEUILLES CSS ##### */
+
+
+
 /* ##### FONTS ##### */
 
 @font-face{
@@ -39,24 +48,6 @@ a{
 
 
 
-/* ##### HEADER #####*/
-
-.header_infos{
-    display: flex;
-    justify-content: center;
-    background-color: #579C87;
-}
-
-.header_infos h1{
-    font-family: 'Source Sans Pro', Arial, sans-serif;
-    color: #FDCB46;
-    font-size: 50px;
-}
-
-/* ##### end HEADER #####*/
-
-
-
 /* ##### MENUS #####*/
 
 .flex_menu1{
@@ -65,19 +56,19 @@ a{
     margin-top: 50px;
 }
 
-        /* ##### MENU : "La note enchantée" #####*/
+/* ##### MENU : "La note enchantée" #####*/
 
-        .menu_lanote{
-            background-color: #FCDFDB;
-            color: #3C1218;
-            text-align: center;
-            box-shadow: black 0.012em 0.012em 0.012em 0.012em;
-            height: 450px;
-            width: 420px;
-            margin-right: 25px;
-        }
+.menu_lanote{
+    background-color: #FCDFDB;
+    color: #3C1218;
+    text-align: center;
+    box-shadow: black 0.012em 0.012em 0.012em 0.012em;
+    height: 450px;
+    width: 420px;
+    margin-right: 25px;
+}
 
-        .icone_lanote{
+.icone_lanote{
             color: #F78F6A;    
         }
 
@@ -243,28 +234,3 @@ a{
 
 /* ##### end PROCHAINEMENT ##### */
 
-
-
-/* ##### FOOTER ##### */
-
-.footer_infos{
-    background-color: #579C87;
-    margin-top: auto;
-}
-
-.items_footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    
-}
-
-.texte_footer{
-    font-family: 'Titillium Web', Arial, sans-serif;
-    color: #FDCB46;
-    font-size: 24px;
-}
-
-/* ##### end FOOTER ##### */

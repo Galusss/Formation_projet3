@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+
+
+/* ##### FEUILLES CSS ##### */
+
+@import url("footer.css"); /* Permet d'importer la feuille css qui met en place le footer */
+@import url("header.css"); /* Permet d'importer la feuille css qui met en place le header */
+@import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
+
+/* ##### end FEUILLES CSS ##### */
+
+
+
+/* ##### BALISES GENERALE #####*/
+
+#bloc_page_lanote{
+    background-color: #FDE0DC;
+    font-family: cursive, Arial, sans-serif;
+    color: #3C1218;
+}
+
+/* ##### end BALISES GENERALE ##### */
+
+
+
+/* ##### MENU ##### */
+
+.titre_lanote{
+
+    margin-top: 45px;
+}
+
+.lanote_style{
+    font-family: 'Devonshire', Arial, sans-serif;
+    font-size: 35px;
+}
+
+.texte_lanote{       
+    font-style: italic;
+    font-size: 28px;
+}
+
+.icone_lanote{
+    color: #F78F6A;   
+}
+
+.icone_lanote_fin{
+    color: #F78F6A;
+    margin-right: 8px;    
+}
+
+.prelude{
+    margin-top: 45px;
+}
+
+.point_orgue{
+    margin-top: 45px;
+}
+
+.mouvement_final{
+    margin-top: 45px;
+}
+
+.fin_de_menu{
+    font-family: 'Devonshire', Arial, sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-weight: 500;
+}
+
+/* ##### end MENU ##### */
+
+
+
