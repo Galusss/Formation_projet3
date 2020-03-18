@@ -1,12 +1,27 @@
 @charset "UTF-8";
+
+
+
+/* ##### FEUILLES CSS ##### */
+
 @import url("../html/css/footer.css");
 @import url("../html/css/header.css");
 
-body{
+/* ##### end FEUILLES CSS ##### */
+
+
+/* BALISES GENERALE */ 
+
+html, body{
     height: 100%;
-    margin: 0;
+	margin: 0;
     padding: 0;
     font-family: Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+	flex-direction: column;
 }
 
 h1, h2, h3, p, ul{
@@ -22,11 +37,14 @@ a{
     color: #FDCB46;
 }
 
+.mention1, .mention2, .mention3, .mention4{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 footer{
     margin-top: auto;
 }
 
-.mention1, .mention2, .mention3{
-    margin-top: 42px;
-    margin-bottom: 42px;
-}
+/* end BALISES GENERALE */ 
+
