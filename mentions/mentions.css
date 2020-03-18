@@ -9,14 +9,6 @@ body{
     font-family: Verdana, sans-serif;
 }
 
-header{
-    margin-bottom: 50px;
-}
-
-.fin-mention{
-    padding-top: 40px;
-}
-
 h1, h2, h3, p, ul{
     text-align: center;
 }
@@ -30,3 +22,11 @@ a{
     color: #FDCB46;
 }
 
+footer{
+    margin-top: auto;
+}
+
+.mention1, .mention2, .mention3{
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
