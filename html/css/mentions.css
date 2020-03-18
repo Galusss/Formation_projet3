@@ -4,10 +4,11 @@
 
 /* ##### FEUILLES CSS ##### */
 
-@import url("../html/css/footer.css");
-@import url("../html/css/header.css");
+@import url("footer.css");
+@import url("header.css");
 
 /* ##### end FEUILLES CSS ##### */
+
 
 
 /* BALISES GENERALE */ 
