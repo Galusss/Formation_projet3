@@ -9,3 +9,35 @@
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
 
 /* ##### end FEUILLES CSS ##### */
+
+
+
+/* ##### BLOC PAGE #####*/
+
+#bloc_page_ledelice{
+    background-color: #F9F9F9;
+    font-family: 'Handlee', Arial, sans-serif;
+    color: black;
+}
+
+.titre_ledelice h2{
+    color: #2B91F8;
+    font-family: 'Dancing Script', Arial, sans-serif;
+    font-size: 37px;
+}
+
+.titre_ledelice{
+    margin-top: 45px;
+}
+
+.bien_commencer, .bien_continuer{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.bien_terminer{
+    margin-top: 45px;
+    margin-bottom: 150px;
+}
+
+/* ##### end BLOC PAGE #####*/

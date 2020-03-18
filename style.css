@@ -169,6 +169,8 @@ a{
 
 .menu_lapalette h2{
     color: #5EAE4B;
+    font-family: 'Worstveld Sling', Arial, sans-serif;
+    font-size: 31px;
 }
 
 .texte_lapalette{
@@ -176,7 +178,7 @@ a{
     font-family: 'Worstveld Sling', Arial, sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .titre_lapalette{

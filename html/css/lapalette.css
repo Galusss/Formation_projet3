@@ -9,3 +9,62 @@
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
 
 /* ##### end FEUILLES CSS ##### */
+
+
+
+/* ##### FONTS ##### */
+
+@font-face{
+    font-family: 'Worstveld Sling';
+    src: url('../../fonts/Worstveld_Sling/worstveldslingbold.ttf');
+}
+
+/* ##### end FONTS ##### */
+
+
+
+/* ##### BLOC PAGE #####*/
+
+#bloc_page_lanote{
+    background-color: #FDFFFD;
+}
+
+.titre_lapalette{
+    color: #5EAE4B;
+    font-family: 'Worstveld Sling', Arial, sans-serif;
+    font-size: 28px;
+    margin-top: 45px;
+}
+
+.esquisse, .oeuvre, .au_sommet, .page_lapalette_prix{
+    font-family: 'Worstveld Sling', Arial, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.esquisse, .oeuvre{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.au_sommet{
+    margin-top: 45px;
+    margin-bottom: 150px;
+}
+
+.page_lapalette_titre_menu{
+    font-size: 31px;
+}
+
+
+
+.page_lapalette_prix{
+    font-family: 'Worstveld Sling', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.euro{
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 14px;
+    font-weight: 500;
+}
