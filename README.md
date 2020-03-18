@@ -19,7 +19,6 @@
 8. Le site doit être parfaitement compatible avec les dernières versions desktop de Chrome, Firefox et Safari.
 
 ##### __Livrables attendus :__ 
-
 *Un site web comprenant...*
 1. Une page d’accueil avec le logo de l’entreprise, un espace contenant les 4 menus, une section “prochainement” et les rubriques « Mention légales » et « Contactez-nous ».
 2. 4 pages contenant chacune le menu d’un restaurant. Au clic sur le menu sur la page d’accueil, l’utilisateur est redirigé vers la page du menu.
