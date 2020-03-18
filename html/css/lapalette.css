@@ -52,12 +52,6 @@
     margin-bottom: 150px;
 }
 
-.page_lapalette_titre_menu{
-    font-size: 31px;
-}
-
-
-
 .page_lapalette_prix{
     font-family: 'Worstveld Sling', Arial, sans-serif;
     font-size: 18px;
@@ -68,3 +62,84 @@
     font-size: 14px;
     font-weight: 500;
 }
+
+/* ##### end BLOC PAGE ##### */
+
+
+
+/* BARRES */
+
+/* ESQUISSE */
+.page_lapalette_titre_menu1{
+    position:relative;
+}
+
+.page_lapalette_titre_menu1:before{
+    content:'';
+    position:absolute;
+    left:calc(-50% - 295px);
+    top:calc(50% - 2px);
+    border-bottom:5px ridge #5EAE4B;
+    width:280px;
+}
+ 
+.page_lapalette_titre_menu1:after{
+    content:'';
+    position:absolute;
+    right:calc(-50% - 295px);
+    top:calc(50% - 2px);
+    border-bottom:5px ridge #5EAE4B;
+    width:280px;
+}
+/* end ESQUISSE */
+
+/* OEUVRE */
+.page_lapalette_titre_menu2{
+    position:relative;
+}
+
+ 
+.page_lapalette_titre_menu2:before{
+    content:'';
+    position:absolute;
+    left:calc(-50% - 230px);
+    top:calc(50% - 2px);
+    border-bottom:5px ridge #5EAE4B;
+    width:280px;
+}
+ 
+.page_lapalette_titre_menu2:after{
+    content:'';
+    position:absolute;
+    right:calc(-50% - 230px);
+    top:calc(50% - 2px);
+    border-bottom:5px ridge #5EAE4B;
+    width:280px;
+}
+/* end OEUVRE */
+
+/* AU SOMMET */
+.page_lapalette_titre_menu3{
+    position:relative;
+}
+
+.page_lapalette_titre_menu3:before{
+    content:'';
+    position:absolute;
+    left:calc(-50% - 215px);
+    top:calc(50% - 2px);
+    border-bottom:5px ridge #5EAE4B;
+    width:280px;
+}
+ 
+.page_lapalette_titre_menu3:after{
+    content:'';
+    position:absolute;
+    right:calc(-50% - 215px);
+    top:calc(50% - 2px);
+    border-bottom:5px ridge #5EAE4B;
+    width:280px;
+}
+/* end AU SOMMET */
+
+/* end BARRES */

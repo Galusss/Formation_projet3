@@ -89,3 +89,83 @@
 
 
 
+/* BARRES */
+
+/* EN APPETIT */
+.titre_en_appetit{
+    position:relative;
+}
+
+ 
+.titre_en_appetit:before{
+    content:'';
+    position:absolute;
+    left:calc(-50% - 140px);
+    top:calc(50% - 2px);
+    border-bottom:5px ridge #C77412;
+    width:250px;
+}
+ 
+.titre_en_appetit:after{
+    content:'';
+    position:absolute;
+    right:calc(-50% - 140px);
+    top:calc(50% - 2px);
+    border-bottom:5px ridge #C77412;
+    width:250px;
+}
+/* end EN APPETIT */
+
+/* PLAISIR PAPILLES */
+.titre_papilles{
+    position:relative;
+}
+
+ 
+.titre_papilles:before{
+    content:'';
+    position:absolute;
+    left:calc(-50% - 205px);
+    top:calc(50% - 1px);
+    border-bottom:5px ridge #A56799;
+    width:250px;
+}
+ 
+.titre_papilles:after{
+    content:'';
+    position:absolute;
+    right:calc(-50% - 205px);
+    top:calc(50% - 1px);
+    border-bottom:5px ridge #A56799;
+    width:250px;
+}
+/* end PLAISIR PAPILLES */
+
+/* GOURMANDISES */
+.titre_gourmandises{
+    position:relative;
+}
+
+ 
+.titre_gourmandises:before{
+    content:'';
+    position:absolute;
+    left:calc(-50% - 195px);
+    top:calc(50% - 1px);
+    border-bottom:5px ridge #6E4CCC;
+    width:250px;
+}
+ 
+.titre_gourmandises:after{
+    content:'';
+    position:absolute;
+    right:calc(-50% - 195px);
+    top:calc(50% - 1px);
+    border-bottom:5px ridge #6E4CCC;
+    width:250px;
+}
+/* end GOURMANDISES */
+
+/* end BARRES */
+
+
