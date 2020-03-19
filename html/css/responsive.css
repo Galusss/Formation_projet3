@@ -24,17 +24,13 @@
         margin-top: 50px;
     }
 
-    }
-
     .header_infos h1{
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .texte_footer{
         font-size: 18px;
     }
-
-
 }
 
 /* end Ecran ayant une largeur maximum de 950px */
