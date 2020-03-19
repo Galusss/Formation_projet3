@@ -76,15 +76,11 @@ a{
     color: #3C1218;
     font-family: cursive, Arial, sans-serif;
     font-style: italic;
-    font-size: 28px;
-}
-
-.lanote_style{
-    font-family: 'Devonshire', Arial, sans-serif;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .titre_lanote{
+    font-family: 'Devonshire', Arial, sans-serif;
     padding-top: 85px;
 }
 /* ##### (MENUS) end "La note enchantée" #####*/
@@ -99,23 +95,20 @@ a{
     margin-left: 15px;
 }
 
-.menu_lechic h2{
-    color: #9D62DB;
-}
-
 .texte_lechic{
     color: #C77412;
     font-family: 'CheapProFonts', Arial, sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 26px;
+    font-size: 20px;
             
 }
 
-.titre_lechic h2{
+.titre_lechic{
     font-family: 'Croissant One', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 13px;
     padding-top: 160px;
+    color: #9D62DB;
 }
 /* ##### (MENUS) end "Le chic à la française" #####*/
 
@@ -136,21 +129,18 @@ a{
     margin-right: 15px;
 }
 
-.menu_ledelice h2{
-    color: #5076EA;
-}
-
 .texte_ledelice{
     color: #2B91F8;
     font-family: 'Handlee', Arial, sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 28px;
+    font-size: 22px;
 }
 
-.titre_ledelice h2{
+.titre_ledelice{
     font-family: 'Dancing Script', Arial, sans-serif;
-    font-size: 26px;
+    font-size: 18px;
+    color: #5076EA;
 }
 
 .titre_ledelice{
@@ -168,22 +158,19 @@ a{
     margin-left: 15px;
 }
 
-.menu_lapalette h2{
-    color: #5EAE4B;
-    font-family: 'Worstveld Sling', Arial, sans-serif;
-    font-size: 31px;
-}
-
 .texte_lapalette{
     color: #72BF56;
     font-family: 'Worstveld Sling', Arial, sans-serif;
     font-weight: bold;
     font-style: normal;
-    font-size: 40px;
+    font-size: 34px;
 }
 
 .titre_lapalette{
     padding-top: 140px;
+    color: #5EAE4B;
+    font-family: 'Worstveld Sling', Arial, sans-serif;
+    font-size: 22px;
 }
 /* ##### (MENUS) end "La palette du goût" #####*/
 
