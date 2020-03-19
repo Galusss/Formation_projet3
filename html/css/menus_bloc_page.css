@@ -22,12 +22,18 @@ ul{
     list-style: none;
 }
 
+/* ##### end BALISES GENERALE ##### */
+
+
+
+/* ##### DIV MENUS ##### */
+
 #bloc_page_lechic, #bloc_page_lanote, #bloc_page_lapalette, #bloc_page_ledelice{
     box-shadow: black 0.012em 0.012em 0.012em 0.012em;
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 800px;
+    width: auto;
     height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -50,4 +56,4 @@ ul{
     text-align: center;
 }
 
-/* ##### end BALISES GENERALE ##### */
+/* ##### end DIV MENUS ##### */

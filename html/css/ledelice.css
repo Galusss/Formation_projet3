@@ -7,6 +7,7 @@
 @import url("footer.css"); /* Permet d'importer la feuille css qui met en place le footer */
 @import url("header.css"); /* Permet d'importer la feuille css qui met en place le header */
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
+@import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 
 /* ##### end FEUILLES CSS ##### */
 
