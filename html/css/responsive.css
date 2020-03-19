@@ -4,6 +4,7 @@
     .flex_menu1, .flex_menu2{
         flex-direction: column;
         align-items: center;
+        margin-left: 12px;
     }
 
     .menu_lechic{
@@ -17,5 +18,8 @@
         right:12px;
         margin-top: 50px;
     }
+    .header_infos h1{
+        font-size: 15px;
+}
     
 }
