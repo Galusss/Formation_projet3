@@ -63,8 +63,8 @@ a{
     color: #3C1218;
     text-align: center;
     box-shadow: black 0.012em 0.012em 0.012em 0.012em;
-    height: 450px;
-    width: 420px;
+    height: auto;
+    min-width: 300px;
     margin-right: 15px;
 }
 
@@ -90,8 +90,8 @@ a{
     background-color: #FFF5FE;
     text-align: center;
     box-shadow: black 0.012em 0.012em 0.012em 0.012em;
-    height: 450px;
-    width: 420px;
+    height: auto;
+    min-width: 300px;
     margin-left: 15px;
 }
 
@@ -124,8 +124,8 @@ a{
     background-color: #F9F9F9;
     text-align: center;
     box-shadow: black 0.012em 0.012em 0.012em 0.012em;
-    height: 450px;
-    width: 420px;
+    height: auto;
+    min-width: 300px;
     margin-right: 15px;
 }
 
@@ -153,8 +153,8 @@ a{
     background-color: #FDFFFD;
     text-align: center;
     box-shadow: black 0.012em 0.012em 0.012em 0.012em;
-    height: 450px;
-    width: 420px;
+    height: auto;
+    min-width: 300px;
     margin-left: 15px;
 }
 
