@@ -1,1 +1,21 @@
 @charset "UTF-8";
+
+@media screen and (max-width: 950px){ /* Prend en compte tout les écrans ayant une largeur maximum de 950px. */
+    .flex_menu1, .flex_menu2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_lechic{
+        position: relative;
+        right:12px;
+        margin-top: 50px;
+    }
+
+    .menu_lapalette{
+        position: relative;
+        right:12px;
+        margin-top: 50px;
+    }
+    
+}

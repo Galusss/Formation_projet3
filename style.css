@@ -6,6 +6,7 @@
 
 @import url("html/css/footer.css"); /* Permet d'importer la feuille css qui met en place le footer */
 @import url("html/css/header.css"); /* Permet d'importer la feuille css qui met en place le header */
+@import url("html/css/responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 
 /* ##### end FEUILLES CSS ##### */
 
@@ -30,7 +31,7 @@
 /* ##### BALISES GENERALE #####*/
 
 html, body{
-	height: 100%;
+    height: 100%;
 	margin: 0;
 	padding: 0;
 }
@@ -64,7 +65,7 @@ a{
     box-shadow: black 0.012em 0.012em 0.012em 0.012em;
     height: 450px;
     width: 420px;
-    margin-right: 25px;
+    margin-right: 15px;
 }
 
 .icone_lanote{
@@ -95,7 +96,7 @@ a{
     box-shadow: black 0.012em 0.012em 0.012em 0.012em;
     height: 450px;
     width: 420px;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 .menu_lechic h2{
@@ -132,7 +133,7 @@ a{
     box-shadow: black 0.012em 0.012em 0.012em 0.012em;
     height: 450px;
     width: 420px;
-    margin-right: 25px;
+    margin-right: 15px;
 }
 
 .menu_ledelice h2{
@@ -164,7 +165,7 @@ a{
     box-shadow: black 0.012em 0.012em 0.012em 0.012em;
     height: 450px;
     width: 420px;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 .menu_lapalette h2{
