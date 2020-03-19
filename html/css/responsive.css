@@ -6,6 +6,12 @@
 
 @media screen and (max-width: 950px){ 
 
+    .body{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+	    padding: 0;
+    }
 
     .flex_menu1, .flex_menu2{
         flex-direction: column;

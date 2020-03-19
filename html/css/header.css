@@ -8,10 +8,10 @@
 
 .header_infos h1{
     font-family: 'Source Sans Pro', Arial, sans-serif;
-    color: #FDCB46;
+    color: /*#FDCB46*/blue;
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 /* ##### end HEADER #####*/
