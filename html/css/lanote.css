@@ -28,7 +28,7 @@
 /* ##### MENU ##### */
 
 .titre_lanote{
-    margin-top: 37px;
+    margin-top: 40px;
 }
 
 .lanote_style{
@@ -51,23 +51,23 @@
 }
 
 .prelude{
-    margin-top: 65px;
+    margin-top: 35px;
 }
 
 .point_orgue{
-    margin-top: 65px;
+    margin-top: 35px;
 }
 
 .mouvement_final{
-    margin-top: 65px;
+    margin-top: 35px;
 }
 
 .fin_de_menu{
     font-family: 'Devonshire', Arial, sans-serif;
     font-size: 32px;
     text-align: center;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin-top: 35px;
+    margin-bottom: 80px;
     font-weight: 500;
 }
 

@@ -42,7 +42,7 @@
 }
 
 .titre_lechic{
-    margin-top: 90px;
+    margin-top: 35px;
     text-align: center;
     color: #9D62DB;
     font-size: 21px;
@@ -61,7 +61,7 @@
     font-weight: lighter;
     color: #C77412;
     margin-top: 90px;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
 }
 
 .titre_papilles{
@@ -71,8 +71,8 @@
 .plaisir_papilles{
     font-weight: lighter;
     color: #A56799;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 .titre_gourmandises{
@@ -81,8 +81,8 @@
 
 .gourmandises{
     font-weight: lighter;
-    margin-top: 45px;
-    margin-bottom: 180px;
+    margin-top: 35px;
+    margin-bottom: 80px;
     color: #6E4CCC;
 }
 
