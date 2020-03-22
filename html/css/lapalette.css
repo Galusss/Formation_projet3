@@ -53,14 +53,11 @@
     margin-bottom: 150px;
 }
 
-.page_lapalette_prix{
-    font-family: 'Worstveld Sling', Arial, sans-serif;
-    font-size: 18px;
-}
 
-.prix{
+
+#bloc_page_lapalette .prix{
     font-family: 'Comic Sans MS', cursive;
-    font-size: 14px;
+    font-size: 10.5px;
     font-weight: 500;
 }
 
