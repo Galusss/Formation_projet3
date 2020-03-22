@@ -39,7 +39,7 @@
 /* MENUS */
 
     #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
-        width: 550px;
+        max-width: 550px;
     }
 
     #bloc_page_lanote p, #bloc_page_lechic p, #bloc_page_ledelice p{
@@ -70,7 +70,7 @@
 /* MENUS */ 
 
     #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
-        width: 310px;
+        max-width: 310px;
         margin-left: 5px;
         margin-right: 5px;
         margin-right: 0;
