@@ -6,11 +6,12 @@
 
 @media screen and (max-width: 950px){ 
 
-    .flex_menu1, .flex_menu2{
+/* INDEX */
+    .flex_menu1, .flex_menu2, .page_lanote_menu{
         flex-direction: column;
         align-items: center;
         margin-left: 12px;
-    }
+}
 
     .menu_lechic{
         position: relative;
@@ -31,6 +32,20 @@
     .texte_footer{
         font-size: 18px;
     }
+/* end INDEX */
+
+/* MENUS */
+    #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
+        width: 550px;
+    }
+
+    #bloc_page_lanote p, #bloc_page_lechic p, #bloc_page_lapalette p, #bloc_page_ledelice p{
+        font-size: 13px;    
 }
+/* end MENUS */
+/* MENTIONS */
+    .mention1 p, .mention2 p, .mention3 p, .mention4 p, ul{
+        font-size: 13px;
+    }
 
 /* end Ecran ayant une largeur maximum de 950px */

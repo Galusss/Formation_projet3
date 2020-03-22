@@ -75,9 +75,9 @@
 
 
 
-/* BARRES */
+/* BARRES 
 
-/* PRELUDE */
+ PRELUDE 
 .page_lanote_titre_menu1{
     position:relative;
 }
@@ -100,9 +100,9 @@
     border-bottom:5px ridge #3C1218;
     width:170px;
 }
-/* end PRELUDE */
+ end PRELUDE 
 
-/* POINT ORGUE */
+ POINT ORGUE 
 .page_lanote_titre_menu2{
     position:relative;
 }
@@ -125,9 +125,9 @@
     border-bottom:5px ridge #3C1218;
     width:170px;
 }
-/* end POINT ORGUE */
+ end POINT ORGUE 
 
-/* MOUVEMENT FINAL */
+ MOUVEMENT FINAL 
 .page_lanote_titre_menu3{
     position:relative;
 }
@@ -150,4 +150,4 @@
     border-bottom:5px ridge #3C1218;
     width:170px;
 }
-/* end MOUVEMENT FINAL */
+ end MOUVEMENT FINAL */

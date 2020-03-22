@@ -45,9 +45,9 @@
 
 
 
-/* BARRES */
+/* BARRES 
 
-/* BIEN COMMENCER */
+ BIEN COMMENCER 
 .page_ledelice_titre_menu1{
     position:relative;
 }
@@ -70,9 +70,9 @@
     border-bottom:5px ridge #0228DD;
     width:250px;
 }
-/* end BIEN COMMENCER */
+ end BIEN COMMENCER 
 
-/* BIEN CONTINUER */
+ BIEN CONTINUER 
 .page_ledelice_titre_menu2{
     position:relative;
 }
@@ -95,9 +95,9 @@
     border-bottom:5px ridge #0670F3;
     width:250px;
 }
-/* end BIEN CONTINUER */
+ end BIEN CONTINUER 
 
-/* BIEN TERMINER */
+ BIEN TERMINER 
 .page_ledelice_titre_menu3{
     position:relative;
 }
@@ -119,6 +119,6 @@
     border-bottom:5px ridge #229DF9;
     width:250px;
 }
-/* end BIEN TERMINER */
+ end BIEN TERMINER 
 
-/* end BARRES */
+ end BARRES */

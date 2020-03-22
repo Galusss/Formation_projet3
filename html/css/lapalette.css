@@ -68,9 +68,9 @@
 
 
 
-/* BARRES */
+/* BARRES 
 
-/* ESQUISSE */
+ ESQUISSE 
 .page_lapalette_titre_menu1{
     position:relative;
 }
@@ -92,9 +92,9 @@
     border-bottom:5px ridge #5EAE4B;
     width:280px;
 }
-/* end ESQUISSE */
+ end ESQUISSE 
 
-/* OEUVRE */
+ OEUVRE 
 .page_lapalette_titre_menu2{
     position:relative;
 }
@@ -117,9 +117,9 @@
     border-bottom:5px ridge #5EAE4B;
     width:280px;
 }
-/* end OEUVRE */
+ end OEUVRE 
 
-/* AU SOMMET */
+ AU SOMMET 
 .page_lapalette_titre_menu3{
     position:relative;
 }
@@ -141,6 +141,6 @@
     border-bottom:5px ridge #5EAE4B;
     width:280px;
 }
-/* end AU SOMMET */
+ end AU SOMMET 
 
-/* end BARRES */
+ end BARRES */
