@@ -31,10 +31,13 @@
 }
 
 .titre_lapalette{
-    font-family: 'Worstveld Sling', Arial, sans-serif;
-    font-size: 28px;
     margin-top: 50px;
-    background: linear-gradient(to right, #3D9339 0%, #BFFF7E 100%);
+}
+
+.titre_lapalette h2{
+    font-family: 'Worstveld Sling', Arial, sans-serif;
+    font-size: 32px;
+	background: linear-gradient(to right, #3D9339 0%, #BFFF7E 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }

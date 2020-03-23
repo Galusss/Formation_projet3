@@ -119,9 +119,9 @@ a{
             
 }
 
-.titre_lechic{
+.titre_lechic h2{
     font-family: 'Croissant One', Arial, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
 	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: rgba(255, 255, 255,0);
@@ -153,9 +153,9 @@ a{
     font-size: 22px;
 }
 
-.titre_ledelice{
+.titre_ledelice h2{
     font-family: 'Dancing Script', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 23px;
 	background: linear-gradient(to right, #0431DF 0%, #1789F9 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -181,9 +181,9 @@ a{
     font-size: 34px;
 }
 
-.titre_lapalette{
+.titre_lapalette h2{
     font-family: 'Worstveld Sling', Arial, sans-serif;
-    font-size: 22px;
+    font-size: 27px;
     background: linear-gradient(to right, #3D9339 0%, #BFFF7E 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
