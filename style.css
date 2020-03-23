@@ -125,7 +125,7 @@ a{
     font-size: 10px;
 	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	-webkit-text-fill-color: rgba(255, 255, 255,0);
 }
 /* ##### (MENUS) end "Le chic à la française" #####*/
 
