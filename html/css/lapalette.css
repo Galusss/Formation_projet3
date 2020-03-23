@@ -31,10 +31,12 @@
 }
 
 .titre_lapalette{
-    color: #5EAE4B;
     font-family: 'Worstveld Sling', Arial, sans-serif;
     font-size: 28px;
     margin-top: 50px;
+    background: linear-gradient(to right, #3D9339 0%, #BFFF7E 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .esquisse, .oeuvre, .au_sommet, .page_lapalette_prix{
