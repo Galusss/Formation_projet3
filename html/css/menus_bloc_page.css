@@ -29,7 +29,7 @@ ul{
 /* ##### DIV MENUS ##### */
 
 #bloc_page_lechic, #bloc_page_lanote, #bloc_page_lapalette, #bloc_page_ledelice{
-    box-shadow: black 0.012em 0.012em 0.012em 0.012em;
+    box-shadow: 0px 0px 7px rgb(201, 193, 193);
     display: flex;
     justify-content: center;
     align-self: center;
