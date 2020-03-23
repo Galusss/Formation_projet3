@@ -121,8 +121,7 @@ a{
 
 .titre_lechic{
     font-family: 'Croissant One', Arial, sans-serif;
-    font-size: 13px;
-    font-size: 10px;
+    font-size: 8px;
 	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: rgba(255, 255, 255,0);
