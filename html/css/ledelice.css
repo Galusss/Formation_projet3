@@ -22,9 +22,11 @@
 }
 
 .titre_ledelice h2{
-    color: #2B91F8;
     font-family: 'Dancing Script', Arial, sans-serif;
     font-size: 33px;
+	background: linear-gradient(to right, #0431DF 0%, #1789F9 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .titre_ledelice{

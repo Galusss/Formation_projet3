@@ -44,9 +44,11 @@
 .titre_lechic{
     margin-top: 35px;
     text-align: center;
-    color: #9D62DB;
     font-size: 21px;
     font-family: 'Croissant One', Arial, sans-serif;
+	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .page_lechic_menu h3{
