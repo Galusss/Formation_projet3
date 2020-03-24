@@ -16,16 +16,15 @@
    
 }
 
-.fin_de_menu {
+.fin_de_menu{
     margin-top: 45px;
     margin-bottom: 90px;
+    
 }
 
-
 /* ELEMENTS GRAPGHIQUES */
-.icone_music{
-    float: left;
-    margin-right: 5px;
+.icone_music img{
+   float: left;
 }
 
 .img-l-prelude, .img-l-orgue,.img-l-mouvement{
