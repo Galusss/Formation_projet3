@@ -114,7 +114,7 @@ a{
     color: #72BF56;
 }
 
-.titre_lapalette{
+.titre_lapalette h2{
     background: linear-gradient(to right, #3D9339 0%, #BFFF7E 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
