@@ -4,16 +4,10 @@
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 
 
-html, body{
-    height: 100%;
-	margin: 0;
-    padding: 0;
-    font-family: Verdana, sans-serif;
-}
-
 body{
     display: flex;
-	flex-direction: column;
+    flex-direction: column;
+    font-family: Verdana, sans-serif;
 }
 
 h1, h2, h3, p, ul{

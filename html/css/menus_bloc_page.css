@@ -1,12 +1,6 @@
 @charset "UTF-8";
 
 
-html, body{
-    height: auto;
-	margin: 0;
-	padding: 0;
-}
-
 body{
     display: flex;
 	flex-direction: column;
@@ -29,7 +23,7 @@ ul{
     justify-content: center;
     align-self: center;
     width: 800px;
-    height: auto;
+    min-height: 850px;
     margin-top: 50px;
     margin-bottom: 50px;
 }

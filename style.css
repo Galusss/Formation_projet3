@@ -5,15 +5,10 @@
 
 
 /* ##### BALISES GENERALE #####*/
-html, body{
-    height: 100%;
-	margin: 0;
-	padding: 0;
-}
 
 body{
     display: flex;
-	flex-direction: column;
+    flex-direction: column;
 }
 
 a{
@@ -23,21 +18,6 @@ a{
 
 
 /* ##### MENUS #####*/
-.lanote_alignement{
-    padding-top: 120px;
-}
-
-.lechic_alignement{
-    padding-top: 150px;
-}
-
-.ledelice_alignement{
-    padding-top: 130px;
-}
-
-.lapalette_alignement{
-    padding-top: 120px;
-}
 .flex_menu1{
     display: flex;
     justify-content: center;
