@@ -39,7 +39,7 @@
 /* MENUS */
 
     #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
-        max-width: 550px;
+        max-width: 310px;
     }
 
     #bloc_page_lanote p, #bloc_page_lechic p, #bloc_page_ledelice p{
