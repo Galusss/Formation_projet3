@@ -23,6 +23,7 @@ html, body{
 
 /* ##### FOOTER ##### */
 .footer_infos{
+  
     background-color: #579C87;
     height          : 50px;
     position        : fixed;
