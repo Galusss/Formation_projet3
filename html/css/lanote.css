@@ -29,11 +29,12 @@
 
 .titre_lanote{
     margin-top: 40px;
+    line-height: 1px;
 }
 
-.lanote_style{
+.titre_lanote h2{
     font-family: 'Devonshire', Arial, sans-serif;
-    font-size: 43px;
+    font-size: 32px;
 }
 
 .texte_lanote{       
@@ -41,13 +42,9 @@
     font-size: 28px;
 }
 
-.icone_lanote{
-    color: #F78F6A;   
-}
-
-.icone_lanote_fin{
-    color: #F78F6A;
-    margin-right: 8px;    
+.test{
+    margin-left: 67px;
+    margin-right: 67px;
 }
 
 .prelude{
@@ -62,92 +59,19 @@
     margin-top: 35px;
 }
 
-.fin_de_menu{
-    font-family: 'Devonshire', Arial, sans-serif;
-    font-size: 32px;
-    text-align: center;
+.fin_de_menu {
     margin-top: 35px;
     margin-bottom: 80px;
-    font-weight: 500;
+}
+
+.fin_de_menu p{
+    font-family: 'Devonshire', Arial, sans-serif;
+    font-size: 26px;
+}
+
+.icone_music{
+    float: left;
+    margin-right: 5px;
 }
 
 /* ##### end MENU ##### */
-
-
-
-/* BARRES 
-
- PRELUDE 
-.page_lanote_titre_menu1{
-    position:relative;
-}
-
- 
-.page_lanote_titre_menu1:before{
-    content:'';
-    position:absolute;
-    left:calc(-50% - 233px);
-    top:calc(50% - 3px);
-    border-bottom:5px ridge #3C1218;
-    width:170px;
-}
- 
-.page_lanote_titre_menu1:after{
-    content:'';
-    position:absolute;
-    right:calc(-50% - 233px);
-    top:calc(50% - 3px);
-    border-bottom:5px ridge #3C1218;
-    width:170px;
-}
- end PRELUDE 
-
- POINT ORGUE 
-.page_lanote_titre_menu2{
-    position:relative;
-}
-
- 
-.page_lanote_titre_menu2:before{
-    content:'';
-    position:absolute;
-    left:calc(-50% - 180px);
-    top:calc(50% - 3px);
-    border-bottom:5px ridge #3C1218;
-    width:170px;
-}
- 
-.page_lanote_titre_menu2:after{
-    content:'';
-    position:absolute;
-    right:calc(-50% - 180px);
-    top:calc(50% - 3px);
-    border-bottom:5px ridge #3C1218;
-    width:170px;
-}
- end POINT ORGUE 
-
- MOUVEMENT FINAL 
-.page_lanote_titre_menu3{
-    position:relative;
-}
-
- 
-.page_lanote_titre_menu3:before{
-    content:'';
-    position:absolute;
-    left:calc(-50% - 153px);
-    top:calc(50% - 3px);
-    border-bottom:5px ridge #3C1218;
-    width:170px;
-}
- 
-.page_lanote_titre_menu3:after{
-    content:'';
-    position:absolute;
-    right:calc(-50% - 153px);
-    top:calc(50% - 3px);
-    border-bottom:5px ridge #3C1218;
-    width:170px;
-}
- end MOUVEMENT FINAL */

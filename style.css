@@ -53,7 +53,7 @@ a{
 /* ##### MENUS #####*/
 
 .lanote_alignement{
-    padding-top: 45px;
+    padding-top: 120px;
 }
 
 .lechic_alignement{
@@ -97,6 +97,7 @@ a{
 
 .titre_lanote{
     font-family: 'Devonshire', Arial, sans-serif; 
+    line-height: 1px;
 }
 /* ##### (MENUS) end "La note enchantée" #####*/
 
@@ -227,4 +228,3 @@ a{
 }
 
 /* ##### end PROCHAINEMENT ##### */
-
