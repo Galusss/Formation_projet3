@@ -9,7 +9,7 @@
     background-color: #FFF5FE;
 }
 
-.titre_lechic{
+.titre_lechic h2{
 	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
