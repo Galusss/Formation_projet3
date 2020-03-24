@@ -1,94 +1,41 @@
 @charset "UTF-8";
 
-@import url("footer.css"); /* Permet d'importer la feuille css qui met en place le footer */
-@import url("header.css"); /* Permet d'importer la feuille css qui met en place le header */
+@import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 
 
-/* ##### BLOC PAGE #####*/
-
 #bloc_page_lanote{
     background-color: #FDE0DC;
-    font-family: cursive, Arial, sans-serif;
     color: #3C1218;
 }
 
-/* ##### end BLOC PAGE ##### */
-
-
-
-.titre_lanote{
-    margin-top: 40px;
-    line-height: 1px;
-}
-
-.titre_lanote h2{
-    font-family: 'Devonshire', Arial, sans-serif;
-    font-size: 32px;
-}
-
-.texte_lanote{       
-    font-style: italic;
-    font-size: 28px;
-}
-
-.prelude{
-    margin-top: 35px;
-}
-
-.point_orgue{
-    margin-top: 35px;
+.titre_lanote, .prelude, .point_orgue{
+    margin-top: 45px;
+    margin-bottom: 45px;
+   
 }
 
 .fin_de_menu {
-    margin-top: 35px;
-    margin-bottom: 80px;
+    margin-top: 45px;
+    margin-bottom: 90px;
 }
 
-.fin_de_menu p{
-    font-family: 'Devonshire', Arial, sans-serif;
-    font-size: 26px;
-}
 
+/* ELEMENTS GRAPGHIQUES */
 .icone_music{
     float: left;
     margin-right: 5px;
 }
 
-.img-l-prelude{
+.img-l-prelude, .img-l-orgue,.img-l-mouvement{
     float: left;
 }
 
-.img-r-prelude{
+.img-r-prelude, .img-r-orgue, .img-r-mouvement{
     float: right;
 }
 
-.titre_prelude{
+.titre_prelude, .titre_orgue, .titre_mouvement{
     line-height: 5px;
 }
-
-.img-l-orgue{
-    float: left;
-}
-
-.img-r-orgue{
-    float: right;
-}
-
-.titre_orgue{
-    line-height: 5px;
-}
-
-.img-l-mouvement{
-    float: left;
-}
-
-.img-r-mouvement{
-    float: right;
-}
-
-.page_lanote_titre_menu3{
-    line-height: 5px;
-}
-

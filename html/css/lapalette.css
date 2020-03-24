@@ -1,145 +1,27 @@
 @charset "UTF-8";
 
-
-
-/* ##### FEUILLES CSS ##### */
-
-@import url("footer.css"); /* Permet d'importer la feuille css qui met en place le footer */
-@import url("header.css"); /* Permet d'importer la feuille css qui met en place le header */
+@import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 
-/* ##### end FEUILLES CSS ##### */
-
-
-
-/* ##### FONTS ##### */
-
-@font-face{
-    font-family: 'Worstveld Sling';
-    src: url('../../fonts/Worstveld_Sling/worstveldslingbold.ttf');
-}
-
-/* ##### end FONTS ##### */
-
-
-
-/* ##### BLOC PAGE #####*/
 
 #bloc_page_lanote{
     background-color: #FDFFFD;
 }
 
 .titre_lapalette{
-    font-family: 'Worstveld Sling', Arial, sans-serif;
-    font-size: 28px;
-    margin-top: 50px;
     background: linear-gradient(to right, #3D9339 0%, #BFFF7E 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-.esquisse, .oeuvre, .au_sommet, .page_lapalette_prix{
-    font-family: 'Worstveld Sling', Arial, sans-serif;
-    font-size: 23px;
-    font-weight: bold;
-}
-
-.esquisse, .oeuvre{
-    margin-top: 35px;
-    margin-bottom: 35px;
+.titre_lapalette, .esquisse, .oeuvre{
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 .au_sommet{
-    margin-top: 35px;
-    margin-bottom: 80px;
+    margin-top: 45px;
+    margin-bottom: 90px;
 }
 
-
-
-#bloc_page_lapalette .prix{
-    font-family: 'Comic Sans MS', cursive;
-    font-size: 10.5px;
-    font-weight: 500;
-}
-
-/* ##### end BLOC PAGE ##### */
-
-
-
-/* BARRES 
-
- ESQUISSE 
-.page_lapalette_titre_menu1{
-    position:relative;
-}
-
-.page_lapalette_titre_menu1:before{
-    content:'';
-    position:absolute;
-    left:calc(-50% - 295px);
-    top:calc(50% - 2px);
-    border-bottom:5px ridge #5EAE4B;
-    width:280px;
-}
- 
-.page_lapalette_titre_menu1:after{
-    content:'';
-    position:absolute;
-    right:calc(-50% - 295px);
-    top:calc(50% - 2px);
-    border-bottom:5px ridge #5EAE4B;
-    width:280px;
-}
- end ESQUISSE 
-
- OEUVRE 
-.page_lapalette_titre_menu2{
-    position:relative;
-}
-
- 
-.page_lapalette_titre_menu2:before{
-    content:'';
-    position:absolute;
-    left:calc(-50% - 230px);
-    top:calc(50% - 2px);
-    border-bottom:5px ridge #5EAE4B;
-    width:280px;
-}
- 
-.page_lapalette_titre_menu2:after{
-    content:'';
-    position:absolute;
-    right:calc(-50% - 230px);
-    top:calc(50% - 2px);
-    border-bottom:5px ridge #5EAE4B;
-    width:280px;
-}
- end OEUVRE 
-
- AU SOMMET 
-.page_lapalette_titre_menu3{
-    position:relative;
-}
-
-.page_lapalette_titre_menu3:before{
-    content:'';
-    position:absolute;
-    left:calc(-50% - 215px);
-    top:calc(50% - 2px);
-    border-bottom:5px ridge #5EAE4B;
-    width:280px;
-}
- 
-.page_lapalette_titre_menu3:after{
-    content:'';
-    position:absolute;
-    right:calc(-50% - 215px);
-    top:calc(50% - 2px);
-    border-bottom:5px ridge #5EAE4B;
-    width:280px;
-}
- end AU SOMMET 
-
- end BARRES */

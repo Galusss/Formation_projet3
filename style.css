@@ -1,35 +1,10 @@
 @charset "UTF-8";
 
-
-
-/* ##### FEUILLES CSS ##### */
-
-@import url("html/css/footer.css"); /* Permet d'importer la feuille css qui met en place le footer */
-@import url("html/css/header.css"); /* Permet d'importer la feuille css qui met en place le header */
+@import url("html/css/structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("html/css/responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
-
-/* ##### end FEUILLES CSS ##### */
-
-
-
-/* ##### FONTS ##### */
-
-@font-face{
-    font-family: 'CheapProFonts';
-    src: url('fonts/CheapProFonts/cpf serif pro-bold.otf');
-}
-
-@font-face{
-    font-family: 'Worstveld Sling';
-    src: url('fonts/Worstveld_Sling/worstveldslingbold.ttf');
-}
-
-/* ##### end FONTS ##### */
-
 
 
 /* ##### BALISES GENERALE #####*/
-
 html, body{
     height: 100%;
 	margin: 0;
@@ -46,12 +21,7 @@ a{
 }
 
 
-/* ##### end BALISES GENERALE #####*/
-
-
-
 /* ##### MENUS #####*/
-
 .lanote_alignement{
     padding-top: 120px;
 }
@@ -73,7 +43,13 @@ a{
     margin-top: 50px;
 }
 
-/* ##### (MENUS) "La note enchantée" #####*/
+.flex_menu2{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* ##### (MENU 1) "La note enchantée" #####*/
 .menu_lanote{
     background-color: #FCDFDB;
     color: #3C1218;
@@ -84,24 +60,15 @@ a{
     margin-right: 15px;
 }
 
-.icone_lanote{
-    color: #F78F6A;
-}
-
 .texte_lanote{
     color: #3C1218;
-    font-family: cursive, Arial, sans-serif;
-    font-style: italic;
-    font-size: 20px;
 }
 
 .titre_lanote{
-    font-family: 'Devonshire', Arial, sans-serif; 
     line-height: 1px;
 }
-/* ##### (MENUS) end "La note enchantée" #####*/
 
-/* ##### (MENUS) "Le chic à la française" #####*/
+/* ##### (MENU 2) "Le chic à la française" #####*/
 .menu_lechic{
     background-color: #FFF5FE;
     text-align: center;
@@ -112,31 +79,16 @@ a{
 }
 
 .texte_lechic{
-    color: #C77412;
-    font-family: 'CheapProFonts', Arial, sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 20px;
-            
+    color: #C77412;    
 }
 
 .titre_lechic h2{
-    font-family: 'Croissant One', Arial, sans-serif;
-    font-size: 15px;
 	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: rgba(255, 255, 255,0);
 }
-/* ##### (MENUS) end "Le chic à la française" #####*/
 
-
-.flex_menu2{
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-/* ##### (MENUS) "Le délice des papilles" #####*/
+/* ##### (MENU 3) "Le délice des papilles" #####*/
 .menu_ledelice{
     background-color: #F9F9F9;
     text-align: center;
@@ -148,23 +100,15 @@ a{
 
 .texte_ledelice{
     color: #2B91F8;
-    font-family: 'Handlee', Arial, sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 22px;
 }
 
 .titre_ledelice h2{
-    font-family: 'Dancing Script', Arial, sans-serif;
-    font-size: 23px;
 	background: linear-gradient(to right, #0431DF 0%, #1789F9 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-/* ##### (MENUS) end "Le délice des papilles" #####*/
-
-/* ##### (MENUS) "La palette du goût" #####*/
+/* ##### (MENU 4) "La palette du goût" #####*/
 .menu_lapalette{
     background-color: #FDFFFD;
     text-align: center;
@@ -176,27 +120,16 @@ a{
 
 .texte_lapalette{
     color: #72BF56;
-    font-family: 'Worstveld Sling', Arial, sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 34px;
 }
 
-.titre_lapalette h2{
-    font-family: 'Worstveld Sling', Arial, sans-serif;
-    font-size: 29px;
+.titre_lapalette{
     background: linear-gradient(to right, #3D9339 0%, #BFFF7E 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-/* ##### (MENUS) end "La palette du goût" #####*/
-
-/* ##### end MENUS #####*/
-
 
 
 /* ##### PROCHAINEMENT ##### */
-
 .prochainement {
     display: flex;
     justify-content: center;
@@ -206,8 +139,6 @@ a{
 }
 
 .bouton_prochainement h2{
-    font-family: 'Titillium Web', Arial, sans-serif;
-    font-size: 24px;
     color: #FDCB46;
     background: #579C87;
     border-radius: 8px;
@@ -226,5 +157,3 @@ a{
     background: #579C87;
     background: linear-gradient( #4ac49d, #46cea1);            
 }
-
-/* ##### end PROCHAINEMENT ##### */

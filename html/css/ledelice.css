@@ -1,126 +1,26 @@
 @charset "UTF-8";
 
-
-
-/* ##### FEUILLES CSS ##### */
-
-@import url("footer.css"); /* Permet d'importer la feuille css qui met en place le footer */
-@import url("header.css"); /* Permet d'importer la feuille css qui met en place le header */
+@import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 
-/* ##### end FEUILLES CSS ##### */
-
-
-
-/* ##### BLOC PAGE #####*/
 
 #bloc_page_ledelice{
     background-color: #F9F9F9;
-    font-family: 'Handlee', Arial, sans-serif;
-    color: black;
 }
 
 .titre_ledelice h2{
-    font-family: 'Dancing Script', Arial, sans-serif;
-    font-size: 33px;
 	background: linear-gradient(to right, #0431DF 0%, #1789F9 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-.titre_ledelice{
-    margin-top: 35px;
-}
-
-.bien_commencer, .bien_continuer{
-    margin-top: 35px;
-    margin-bottom: 35px;
+.titre_ledelice, .bien_commencer, .bien_continuer{
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 .bien_terminer{
-    margin-top: 35px;
-    margin-bottom: 80px;
+    margin-top: 45px;
+    margin-bottom: 90px;
 }
-
-/* ##### end BLOC PAGE #####*/
-
-
-
-/* BARRES 
-
- BIEN COMMENCER 
-.page_ledelice_titre_menu1{
-    position:relative;
-}
-
- 
-.page_ledelice_titre_menu1:before{
-    content:'';
-    position:absolute;
-    left:calc(-50% - 195px);
-    top:calc(50% - 3px);
-    border-bottom:5px ridge #0228DD;
-    width:250px;
-}
- 
-.page_ledelice_titre_menu1:after{
-    content:'';
-    position:absolute;
-    right:calc(-50% - 195px);
-    top:calc(50% - 3px);
-    border-bottom:5px ridge #0228DD;
-    width:250px;
-}
- end BIEN COMMENCER 
-
- BIEN CONTINUER 
-.page_ledelice_titre_menu2{
-    position:relative;
-}
-
- 
-.page_ledelice_titre_menu2:before{
-    content:'';
-    position:absolute;
-    left:calc(-50% - 215px);
-    top:calc(50% - 3px);
-    border-bottom:5px ridge #0670F3;
-    width:250px;
-}
- 
-.page_ledelice_titre_menu2:after{
-    content:'';
-    position:absolute;
-    right:calc(-50% - 215px);
-    top:calc(50% - 3px);
-    border-bottom:5px ridge #0670F3;
-    width:250px;
-}
- end BIEN CONTINUER 
-
- BIEN TERMINER 
-.page_ledelice_titre_menu3{
-    position:relative;
-}
-
-.page_ledelice_titre_menu3:before{
-    content:'';
-    position:absolute;
-    left:calc(-50% - 222px);
-    top:calc(50% - 3px);
-    border-bottom:5px ridge #229DF9;
-    width:250px;
-}
- 
-.page_ledelice_titre_menu3:after{
-    content:'';
-    position:absolute;
-    right:calc(-50% - 222px);
-    top:calc(50% - 3px);
-    border-bottom:5px ridge #229DF9;
-    width:250px;
-}
- end BIEN TERMINER 
-
- end BARRES */

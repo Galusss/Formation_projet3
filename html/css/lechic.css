@@ -1,176 +1,35 @@
 @charset "UTF-8";
 
-
-
-/* ##### FEUILLES CSS ##### */
-
-@import url("footer.css"); /* Permet d'importer la feuille css qui met en place le footer */
-@import url("header.css"); /* Permet d'importer la feuille css qui met en place le header */
+@import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 
-/* ##### end FEUILLES CSS ##### */
-
-
-
-/* ##### FONTS ##### */
-
-@font-face{
-    font-family: 'CheapProFonts';
-    src: url('../..fonts/CheapProFonts/cpf serif pro-bold.otf');
-}
-
-/* ##### end FONTS ##### */
-
-
-
-/* ##### BLOC PAGE (voir aussi menus_bloc_page.css) #####*/
 
 #bloc_page_lechic{
     background-color: #FFF5FE;
 }
 
-/* ##### end BLOC PAGE ##### */
-
-
-
-/* ##### MENU ##### */
-
-.page_lechic_menu{
-    font-family: 'CheapProFonts', Arial, sans-serif;
-    font-size: 14px;
-}
-
 .titre_lechic{
-    margin-top: 35px;
-    text-align: center;
-}
-
-.titre_lechic h2{
-    font-family: 'Croissant One', Arial, sans-serif;
-    font-size: 21px;
 	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.page_lechic_menu h3{
-    font-size: 17px;
-}
-
-.titre_en_appetit{
-    font-weight: 800;
+    -webkit-text-fill-color: transparent;
+    margin-top: 45px;
 }
 
 .en_appetit{
-    font-weight: lighter;
     color: #C77412;
-    margin-top: 90px;
-    margin-bottom: 35px;
-}
-
-.titre_papilles{
-    font-weight: 800;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 .plaisir_papilles{
-    font-weight: lighter;
     color: #A56799;
-    margin-top: 35px;
-    margin-bottom: 35px;
-}
-
-.titre_gourmandises{
-    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 .gourmandises{
-    font-weight: lighter;
-    margin-top: 35px;
-    margin-bottom: 80px;
+    margin-top: 45px;
+    margin-bottom: 90px;
     color: #6E4CCC;
 }
-
-/* ##### end MENU ##### */
-
-
-/* BARRES 
-
- EN APPETIT 
-.titre_en_appetit{
-    position:relative;
-}
-
- 
-.titre_en_appetit:before{
-    content:'';
-    position:absolute;
-    left:calc(-50% - 140px);
-    top:calc(50% - 2px);
-    border-bottom:5px ridge #C77412;
-    width:250px;
-}
- 
-.titre_en_appetit:after{
-    content:'';
-    position:absolute;
-    right:calc(-50% - 140px);
-    top:calc(50% - 2px);
-    border-bottom:5px ridge #C77412;
-    width:250px;
-}
- end EN APPETIT 
-
- PLAISIR PAPILLES 
-.titre_papilles{
-    position:relative;
-}
-
- 
-.titre_papilles:before{
-    content:'';
-    position:absolute;
-    left:calc(-50% - 205px);
-    top:calc(50% - 1px);
-    border-bottom:5px ridge #A56799;
-    width:250px;
-}
- 
-.titre_papilles:after{
-    content:'';
-    position:absolute;
-    right:calc(-50% - 205px);
-    top:calc(50% - 1px);
-    border-bottom:5px ridge #A56799;
-    width:250px;
-}
- end PLAISIR PAPILLES 
-
- GOURMANDISES 
-.titre_gourmandises{
-    position:relative;
-}
-
- 
-.titre_gourmandises:before{
-    content:'';
-    position:absolute;
-    left:calc(-50% - 195px);
-    top:calc(50% - 1px);
-    border-bottom:5px ridge #6E4CCC;
-    width:250px;
-}
- 
-.titre_gourmandises:after{
-    content:'';
-    position:absolute;
-    right:calc(-50% - 195px);
-    top:calc(50% - 1px);
-    border-bottom:5px ridge #6E4CCC;
-    width:250px;
-}
- end GOURMANDISES 
-
- end BARRES */
-
-

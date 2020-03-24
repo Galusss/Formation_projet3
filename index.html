@@ -1,92 +1,70 @@
 <!DOCTYPE html> 
 <html lang="fr">
     <head>
-<!--#################### head ####################-->
         <meta charset="utf-8">
         <meta name=viewport content="width=device-width, initial-scale=1">
-        
         <title>Accueil | Ohmyfood</title>
 
         <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
         <link rel="stylesheet" href="style.css" type="text/css" title="index_css" media="screen">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:700&display=swap" rel="stylesheet"> <!-- add font "Source Sans Pro Bold 700" -->
-        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:600&display=swap" rel="stylesheet"> <!-- add font "Titillium Web semi-bold 600" -->
-        <link href="https://fonts.googleapis.com/css?family=Devonshire&display=swap" rel="stylesheet"> <!-- add font "Devonshire" -->
-        <link href="https://fonts.googleapis.com/css?family=Croissant+One&display=swap" rel="stylesheet"> <!-- add font "Croissant One regular 400" -->
-        <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet"> <!-- add font "Handlee regular 400 -->
-        <link href="https://fonts.googleapis.com/css?family=Dancing+Script:600&display=swap" rel="stylesheet"> <!-- add font "Dancing Script semi-bold 600" -->
-        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet"> <!-- add font "Kaushan Script regular 400 -->
     </head>
-<!--#################### end head ####################-->
 
     <body>
       
-
-
 <!--#################### header ####################-->
     <header class="header_infos" title="Bienvenue sur l'acceuil de Ohmyfood !">
         <h1>ohmyfood</h1>
     </header>
-<!--#################### header ####################-->
 
 
-
-    <div id="contenu_page"> <!--Englobe les 4 menus qui sont chacun sous formes d'articles + le bouton prochainement -->
+        <div id="contenu_page"> <!--Englobe les 4 menus qui sont chacun sous formes d'articles-->
             
 <!--#################### menus ####################-->
-    <div class="flex_menu1">
-    <article class="menu_lanote" title="La note enchantée">
-        <div class="lanote_alignement">
-            <div class="titre_lanote"><img src="img/elements/music_icone.png" alt=""><h2>La note enchantée</h2></div>
-            <a href="html/lanote.html" class="texte_lanote" title="Cliquez ici pour voir le menu !">MENU</a>
-        </div>
-    </article>
-    <article class="menu_lechic" title="Le chic à la française">
-        <div class="lechic_alignement">
-            <div class="titre_lechic"><h2>Le chic à la française</h2></div>
-            <a href="html/lechic.html" class="texte_lechic" title="Cliquez ici pour voir le menu !">Menu</a>
-        </div>
-    </article>
-    </div> <!-- end flex_menu1 -->
-    <div class="flex_menu2">
-    <article class="menu_ledelice" title="Le délice des papilles">
-        <div class="ledelice_alignement">
-            <div class="titre_ledelice"><h2>Le délice des papilles</h2></div>
-            <a href="html/ledelice.html" class="texte_ledelice" title="Cliquez ici pour voir le menu !">Menu</a>
-        </div>
-    </article>
-    <article class="menu_lapalette" title="La palette du goût">
-    <div class="lapalette_alignement">
-        <div class="titre_lapalette"><h2>La palette du goût</h2></div>
-            <a href="html/lapalette.html" class="texte_lapalette" title="Cliquez ici pour voir le menu !">Menu</a>
-        </div>
-    </article>
-    </div> <!-- end flex_menu2 -->
- 
-<!--#################### end menus ####################-->
+            <div class="flex_menu1">
+            <article class="menu_lanote" title="La note enchantée">
+                <div class="lanote_alignement">
+                    <div class="titre_lanote"><img src="img/elements/music_icone.png" alt=""><h2>La note enchantée</h2></div>
+                    <a href="html/lanote.html" class="texte_lanote" title="Cliquez ici pour voir le menu !">MENU</a>
+                </div>
+            </article>
+            <article class="menu_lechic" title="Le chic à la française">
+                <div class="lechic_alignement">
+                    <div class="titre_lechic"><h2>Le chic à la française</h2></div>
+                    <a href="html/lechic.html" class="texte_lechic" title="Cliquez ici pour voir le menu !">Menu</a>
+                </div>
+            </article>
+            </div> <!-- end flex_menu1 -->
+            <div class="flex_menu2">
+            <article class="menu_ledelice" title="Le délice des papilles">
+                <div class="ledelice_alignement">
+                    <div class="titre_ledelice"><h2>Le délice des papilles</h2></div>
+                    <a href="html/ledelice.html" class="texte_ledelice" title="Cliquez ici pour voir le menu !">Menu</a>
+                </div>
+            </article>
+            <article class="menu_lapalette" title="La palette du goût">
+            <div class="lapalette_alignement">
+                <div class="titre_lapalette"><h2>La palette du goût</h2></div>
+                    <a href="html/lapalette.html" class="texte_lapalette" title="Cliquez ici pour voir le menu !">Menu</a>
+                </div>
+            </article>
+            </div> <!-- end flex_menu2 -->
 
-    </div> <!--end "contenu_page" -->
-
+        </div> <!--end "contenu_page" -->
 
 
 <!--#################### prochainement ####################-->
     <article class="prochainement" title="Prochainement sur Ohmyfood ! (BIENTÔT DISPONIBLE)">
         <div class="bouton_prochainement"><h2>Prochainement</h2></div>
     </article>
-<!--#################### end prochainement ####################-->
-
 
 
 <!--#################### footer ####################-->
     <footer class="footer_infos">
         <div class="items_footer">
-            <p><a href="html/mentions.html" class="texte_footer" title="Cliquez ici pour accédez aux mentions légales !">Mentions légales</a></p>
-            <p><a href="mailto:ohmyfood@contact.com" class="texte_footer" title="Cliquez ici pour nous contactez !">Contactez-nous</a></p>
+            <p a href="html/mentions.html" title="Cliquez ici pour accédez aux mentions légales !">Mentions légales</a></p>
+            <p a href="mailto:ohmyfood@contact.com" title="Cliquez ici pour nous contactez !">Contactez-nous</a></p>
         </div>
     </footer>
-<!--#################### end footer ####################-->
-
-
 
     </body>
 </html>
