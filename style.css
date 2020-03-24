@@ -16,7 +16,6 @@ a{
     color: #FDCB46;
 }
 
-
 /* ##### MENUS #####*/
 .flex_menu1{
     display: flex;
@@ -36,7 +35,7 @@ a{
     color: #3C1218;
     text-align: center;
     box-shadow: 0px 0px 7px rgb(201, 193, 193);
-    min-height: 400px;
+    height: 400px;
     min-width: 300px;
     margin-right: 15px;
 }
@@ -49,12 +48,16 @@ a{
     line-height: 1px;
 }
 
+.titre_lanote, .texte_lanote{
+    padding-top: 120px;
+}
+
 /* ##### (MENU 2) "Le chic à la française" #####*/
 .menu_lechic{
     background-color: #FFF5FE;
     text-align: center;
     box-shadow: 0px 0px 7px rgb(201, 193, 193);
-    min-height: 400px;
+    height: 400px;
     min-width: 300px;
     margin-left: 15px;
 }
@@ -69,12 +72,16 @@ a{
 	-webkit-text-fill-color: rgba(255, 255, 255,0);
 }
 
+.titre_lechic, .texte_lechic{
+    padding-top: 128px;
+}
+
 /* ##### (MENU 3) "Le délice des papilles" #####*/
 .menu_ledelice{
     background-color: #F9F9F9;
     text-align: center;
     box-shadow: 0px 0px 7px rgb(201, 193, 193);
-    min-height: 400px;
+    height: 400px;
     min-width: 300px;
     margin-right: 15px;
 }
@@ -89,12 +96,16 @@ a{
 	-webkit-text-fill-color: transparent;
 }
 
+.titre_ledelice, .texte_ledelice{
+    padding-top: 128px;
+}
+
 /* ##### (MENU 4) "La palette du goût" #####*/
 .menu_lapalette{
     background-color: #FDFFFD;
     text-align: center;
     box-shadow: 0px 0px 7px rgb(201, 193, 193);
-    min-height: 400px;
+    height: 400px;
     min-width: 300px;
     margin-left: 15px;
 }
@@ -109,6 +120,9 @@ a{
 	-webkit-text-fill-color: transparent;
 }
 
+.titre_lapalette, .texte_lapalette{
+    padding-top: 128px;
+}
 
 /* ##### PROCHAINEMENT ##### */
 .prochainement {
