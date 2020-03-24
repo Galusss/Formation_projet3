@@ -1,16 +1,9 @@
 @charset "UTF-8";
 
-
-
-/* ##### FEUILLES CSS ##### */
-
 @import url("footer.css"); /* Permet d'importer la feuille css qui met en place le footer */
 @import url("header.css"); /* Permet d'importer la feuille css qui met en place le header */
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
-
-/* ##### end FEUILLES CSS ##### */
-
 
 
 /* ##### BLOC PAGE #####*/
@@ -24,8 +17,6 @@
 /* ##### end BLOC PAGE ##### */
 
 
-
-/* ##### MENU ##### */
 
 .titre_lanote{
     margin-top: 40px;
@@ -42,20 +33,11 @@
     font-size: 28px;
 }
 
-.test{
-    margin-left: 67px;
-    margin-right: 67px;
-}
-
 .prelude{
     margin-top: 35px;
 }
 
 .point_orgue{
-    margin-top: 35px;
-}
-
-.mouvement_final{
     margin-top: 35px;
 }
 
@@ -74,4 +56,39 @@
     margin-right: 5px;
 }
 
-/* ##### end MENU ##### */
+.img-l-prelude{
+    float: left;
+}
+
+.img-r-prelude{
+    float: right;
+}
+
+.titre_prelude{
+    line-height: 5px;
+}
+
+.img-l-orgue{
+    float: left;
+}
+
+.img-r-orgue{
+    float: right;
+}
+
+.titre_orgue{
+    line-height: 5px;
+}
+
+.img-l-mouvement{
+    float: left;
+}
+
+.img-r-mouvement{
+    float: right;
+}
+
+.page_lanote_titre_menu3{
+    line-height: 5px;
+}
+

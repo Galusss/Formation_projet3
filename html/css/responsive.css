@@ -7,7 +7,6 @@
 @media screen and (max-width: 950px){ 
 
 /* INDEX */
-
     .flex_menu1, .flex_menu2, .page_lanote_menu{
         flex-direction: column;
         align-items: center;
@@ -33,13 +32,12 @@
     .texte_footer{
         font-size: 18px;
     }
-
 /* end INDEX */
 
 /* MENUS */
-
     #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
-        max-width: 310px;
+        max-width: 550px;
+        min-height: 700px;
     }
 
     #bloc_page_lanote p, #bloc_page_lechic p, #bloc_page_ledelice p{
@@ -49,11 +47,9 @@
     #bloc_page_lapalette p{
         font-size: 19px;
     }
-
 /* end MENUS */
 
 /* MENTIONS */
-
     .mention1 p, .mention2 p, .mention3 p, .mention4 p, ul{
         font-size: 13px;
     }
@@ -91,7 +87,6 @@
     
     .titre_lechic h2{
         font-size: 23px;
-
     }
 
     #bloc_page_lechic p{
@@ -101,7 +96,6 @@
     #bloc_page_lanote p{
         font-size: 9px;
     }
-
 }
 
 /* end MENUS */ 
