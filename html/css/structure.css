@@ -9,7 +9,6 @@ html, body{
 
 /* ##### HEADER #####*/
 .header_infos{
-    font-family: 'Source Sans Pro', Arial, sans-serif;
     color: #FDCB46;
     background-color: #579C87;
 }
@@ -25,17 +24,19 @@ html, body{
 /* ##### FOOTER ##### */
 .footer_infos{
     background-color: #579C87;
-    margin-top: auto;
-    width: 100%; 
+    height          : 50px;
+    position        : fixed;
+    bottom            : 0;
+    width           : 100%;
+    left            : 0;
 }
+
 
 .items_footer{
     color: #FDCB46;
     display: flex;
     justify-content: space-between;
-    margin-left: 15px;
-    margin-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+    width           : 100%;
+    color           : #ccc;
+} 
 
