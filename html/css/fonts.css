@@ -1,12 +1,6 @@
 @charset "UTF-8";
 
 
-.prix{
-    font-weight: bold;
-}
-
-
-/* La note enchantée */ 
 @font-face{
     font-family: "Devonshire";
     src: url("../../fonts/Devonshire-Regular.ttf");
@@ -22,6 +16,51 @@
     src: url("../../fonts/Caveat-Regular.ttf");
 }
 
+@font-face{
+    font-family: "Junicode";
+    src: url("../../fonts/Junicode-Bold.ttf"),
+         url("../../fonts/Junicode-BoldCondensed.ttf"),
+         url("../../fonts/Junicode-BoldItalic.ttf"),
+         url("../../fonts/Junicode-BoldItalicCondensed.ttf"),
+         url("../../fonts/Junicode-Italic.ttf"),
+         url("../../fonts/Junicode-ItalicCondensed.ttf"),
+         url("../../fonts/Junicode-Regular.ttf"),
+         url("../../fonts/Junicode-RegularCondensed.ttf"); 
+}
+
+@font-face{
+    font-family: "Source Serif Pro";
+    src: url("../../fonts/SourceSerifPro-Bold.otf"),
+}
+
+@font-face{
+    font-family: "Source Serif Pro Regular";
+    src: url("../../fonts/SourceSerifPro-Regular.otf");
+}
+
+@font-face{
+    font-family: "Dancing Script";
+    src: url("../../fonts/DancingScript-Regular.otf");
+}
+
+@font-face{
+    font-family: "Kaushan Script";
+    src: url("../../fonts/KaushanScript-Regular.ttf")
+}
+
+
+/* Général */
+.items_footer p, .header_infos h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.prix{
+    font-weight: bold;
+}
+
+
+/* La note enchantée */ 
 .titre_lanote h2, .fin_de_menu{
     font-family: "Devonshire";
     font-size: 30px;
@@ -32,13 +71,12 @@
     font-size: 28px;
 }
 
-p{
+    #bloc_page_lanote p{
     font-family: "Caveat Regular";
-    font-size: 22px;
+    font-size: 24px;
 }
 
-@media screen and (max-width: 950px){ 
-
+@media screen and (max-width: 1050px){ 
     .titre_lanote h2, .fin_de_menu{
         font-size: 22px;
     }
@@ -47,18 +85,80 @@ p{
         font-size: 20px;
     }
 
-    p{
-        font-size: 18px;
+    #bloc_page_lanote p{
+        font-size: 23px;
     }
 }
 
-@media screen and (max-width: 610px){
+@media screen and (max-width: 750px){
     .font-prelude, .font-orgue, .font-mouvement{
-        font-size: 16px;
+        font-size: 15px;
     }
 
-    p{
+    #bloc_page_lanote p{
+        font-size: 12px;
+    }
+}
+
+
+/* Le chic à la française */ 
+
+.titre_lechic h2{
+    font-family: "Junicode";
+    font-size: 25px;
+}
+
+.font-appetit, .font-papilles, .font-gourmandises{
+    font-family: "Source Serif Pro";
+}
+
+#bloc_page_lechic p{
+    font-family: "Source Serif Pro Regular";
+}
+
+#bloc_page_lechic .prix{
+    font-weight: initial;
+}
+
+@media screen and (max-width: 750px){
+    .font-appetit, .font-papilles, .font-gourmandises{
+        font-size: 13px;
+    }
+
+    #bloc_page_lechic p{
+        font-size: 9px;
+    }
+}
+
+
+/* Le délice des papilles */ 
+
+.titre_ledelice h2{
+    font-family: "Dancing Script";
+    font-size: 26px;
+}
+
+.font-commencer, .font-continuer, .font-terminer{
+    font-family: "Caveat Regular";
+    font-weight: 500;
+    font-size: 29px;
+}
+
+#bloc_page_ledelice p{
+    font-family: "Caveat Regular";
+    font-size: 25px;
+}
+
+#bloc_page_ledelice .prix{
+    font-weight: 500;
+}
+
+@media screen and (max-width: 750px){
+    .font-commencer, .font-continuer, .font-terminer{
+        font-size: 19px;
+    }
+
+    #bloc_page_ledelice p{
         font-size: 13px;
     }
 }
-

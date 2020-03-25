@@ -3,7 +3,7 @@
 @import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
-@import url("fonts/fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
+@import url("fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
 
 
 #bloc_page_ledelice{
@@ -13,7 +13,8 @@
 .titre_ledelice h2{
 	background: linear-gradient(to right, #0431DF 0%, #1789F9 100%);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    ;
 }
 
 .titre_ledelice, .bien_commencer, .bien_continuer{

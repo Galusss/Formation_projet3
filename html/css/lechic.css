@@ -3,7 +3,7 @@
 @import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
-@import url("fonts/fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
+@import url("fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
 
 
 #bloc_page_lechic{
@@ -14,24 +14,22 @@
 	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-top: 45px;
+    margin-top: 75px;
 }
 
 .en_appetit{
     color: #C77412;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin-top: 75px;
+
 }
 
 .plaisir_papilles{
     color: #A56799;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin-top: 75px;
 }
 
 .gourmandises{
-    margin-top: 45px;
-    margin-bottom: 90px;
+    margin-top: 75px;
     color: #6E4CCC;
 }
 

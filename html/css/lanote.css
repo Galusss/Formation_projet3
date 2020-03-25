@@ -11,15 +11,17 @@
     color: #3C1218;
 }
 
-.titre_lanote, .prelude, .point_orgue{
-    margin-top: 45px;
-    margin-bottom: 45px;
-   
+.titre_lanote{
+    margin-top: 60px;
+}
+
+.prelude, .point_orgue{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .fin_de_menu{
-    margin-top: 45px;
-    margin-bottom: 90px;
+    margin-top: 60px;
     text-align: center;
 }
 

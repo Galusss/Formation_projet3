@@ -3,7 +3,7 @@
 
 /* ##### Ecran ayant une largeur maximum de 950px ##### */
 
-@media screen and (max-width: 950px){ 
+@media screen and (max-width: 1050px){ 
 
 /* ##### INDEX ##### */
     .flex_menu1, .flex_menu2, .page_lanote_menu{
@@ -25,18 +25,33 @@
 
 /* ##### MENUS ##### */
     #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
-        max-width: 600px;
-        height: 850px;
+        max-width: 750px;
+        height: 1000px;
     }
 }
 
 /* ##### Ecran ayant une largeur minimum de 610px ##### */ 
 
-@media screen and (max-width: 610px){
+@media screen and (max-width: 950px){
 
 /* ##### MENUS ##### */
     #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
-        max-width: 330px;
-        height: 750px
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 750px){
+
+/* ##### MENUS ##### */
+    #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
+        max-width: 310px;
+    }
+
+    #bloc_page_lanote{
+        height: 775px
+    }
+            
+    #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
+        height: 675px;
     }
 }
