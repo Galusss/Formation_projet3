@@ -24,13 +24,9 @@
     }
 
 /* ##### MENUS ##### */
-    body{
-        font-size: 10px;
-    }
-
     #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
-        max-width: 550px;
-        height: 650px;
+        max-width: 600px;
+        height: 850px;
     }
 }
 
@@ -40,7 +36,7 @@
 
 /* ##### MENUS ##### */
     #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
-        max-width: 310px;
-        height: 600px
+        max-width: 330px;
+        height: 750px
     }
 }

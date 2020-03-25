@@ -2,12 +2,12 @@
 
 @import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
+@import url("fonts/fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
 
 
 body{
     display: flex;
     flex-direction: column;
-    font-family: Verdana, sans-serif;
 }
 
 h1, h2, h3, p, ul{

@@ -2,6 +2,7 @@
 
 @import url("html/css/structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("html/css/responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
+@import url("html/css/fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
 
 
 /* ##### BALISES GENERALE #####*/
