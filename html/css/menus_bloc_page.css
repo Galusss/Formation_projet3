@@ -27,7 +27,7 @@ ul{
     margin-bottom: 100px;
 }
 
-.page_lapalette_menu pr, .page_lanote_menu p, .page_lechic_menu p, .page_ledelice_menu p{
+.page_lapalette_menu p, .page_lanote_menu p, .page_lechic_menu p, .page_ledelice_menu p{
     display: flex;
     justify-content: space-between;
 }
