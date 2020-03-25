@@ -25,3 +25,14 @@
     margin-bottom: 90px;
 }
 
+.img-l-lapalette{
+    float: left;
+}
+
+.img-r-lapalette{
+    float: right;
+}
+
+.titre_esquisse, .titre_oeuvre, .titre_sommet{
+    line-height: 5px;
+}

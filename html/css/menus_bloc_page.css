@@ -21,8 +21,8 @@ ul{
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 800px;
-    max-height: 850px;
+    width: 700px;
+    height: 850px;
     margin-top: 50px;
     margin-bottom: 100px;
 }

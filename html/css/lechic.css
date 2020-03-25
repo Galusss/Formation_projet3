@@ -33,3 +33,16 @@
     margin-bottom: 90px;
     color: #6E4CCC;
 }
+
+/* ELEMENTS GRAPHIQUES */
+.img-l-appetit, .img-l-papilles, .img-l-gourmandises{
+    float: left;
+}
+
+.img-r-appetit, .img-r-papilles, .img-r-gourmandises{
+    float: right;
+}
+
+.titre_en_appetit, .titre_papilles, .titre_gourmandises{
+    line-height: 5px;
+}

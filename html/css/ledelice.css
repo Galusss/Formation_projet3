@@ -24,3 +24,17 @@
     margin-top: 45px;
     margin-bottom: 90px;
 }
+
+/* ELEMENTS GRAPHIQUES */ 
+
+.img-l-commencer, .img-l-continuer, .img-l-terminer{
+    float: left;
+}
+
+.img-r-commencer, .img-r-continuer, .img-r-terminer{
+    float: right;
+}
+
+.titre_commencer, .titre_continuer, .titre_terminer{
+    line-height: 5px;
+}
