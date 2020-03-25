@@ -18,14 +18,7 @@
 
 @font-face{
     font-family: "Junicode";
-    src: url("../../fonts/Junicode-Bold.ttf"),
-         url("../../fonts/Junicode-BoldCondensed.ttf"),
-         url("../../fonts/Junicode-BoldItalic.ttf"),
-         url("../../fonts/Junicode-BoldItalicCondensed.ttf"),
-         url("../../fonts/Junicode-Italic.ttf"),
-         url("../../fonts/Junicode-ItalicCondensed.ttf"),
-         url("../../fonts/Junicode-Regular.ttf"),
-         url("../../fonts/Junicode-RegularCondensed.ttf"); 
+    src: url("../../fonts/Junicode-Bold.ttf");
 }
 
 @font-face{
@@ -162,3 +155,6 @@
         font-size: 13px;
     }
 }
+
+
+/* La palette du gout */ 
