@@ -14,16 +14,19 @@
 }
 
 .titre_lanote{
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
-.prelude, .point_orgue{
+.prelude{
     margin-top: 50px;
-    margin-bottom: 50px;
+}
+
+.point_orgue, .mouvement_final{
+    margin-top: 40px;
 }
 
 .fin_de_menu{
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 
@@ -41,5 +44,5 @@
 }
 
 .titre_prelude, .titre_orgue, .titre_mouvement{
-    line-height: 5px;
+    line-height: 3px;
 }

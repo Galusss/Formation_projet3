@@ -82,7 +82,7 @@
 /* ########## MENU : La note enchantée ########## */ 
 .titre_lanote, .fin_de_menu{
     font-family: "Devonshire";
-    font-size: 31px;
+    font-size: 33px;
 }
 
 .texte_lanote{
@@ -105,19 +105,7 @@
 }
 
 /* ########## Ecran ayant une largeur minimum de 1050px ########## */ 
-@media screen and (max-width: 1050px){ 
-    .titre_lanote h2, .fin_de_menu{
-        font-size: 22px;
-    }
 
-    .font-prelude, .font-orgue, .font-mouvement{
-        font-size: 20px;
-    }
-
-    #bloc_page_lanote p{
-        font-size: 23px;
-    }
-}
 
 /* ########## Ecran ayant une largeur minimum de 750px ########## */ 
 @media screen and (max-width: 750px){

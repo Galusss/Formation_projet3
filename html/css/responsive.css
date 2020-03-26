@@ -25,7 +25,6 @@
     /* ########## MENUS ########## */
     #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
         max-width: 750px;
-        height: 1000px;
     }
 }
 
