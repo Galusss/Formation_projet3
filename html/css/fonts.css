@@ -46,29 +46,38 @@
 /* ########## GENERALE ########## */
 .items_footer{
     font-family: cursive;
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .header_infos{
     font-family: cursive;
     font-size: 18px;
+    font-weight: 500;
 }
 
 .bouton_prochainement{
     font-family: cursive;
-    font-size: 28px;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 350px){ 
+    .items_footer{
+        font-size: 16px;
+    }
 }
 
 
 /* ########## MENU : La note enchantée ########## */ 
 .titre_lanote, .fin_de_menu{
     font-family: "Devonshire";
-    font-size: 35px;
+    font-size: 31px;
 }
 
 .texte_lanote{
     font-family: "Caveat Bold";
-    font-size: 30px;
+    font-size: 28px;
 }
 
 #bloc_page_lanote .prix{
@@ -77,7 +86,7 @@
 
 .font-prelude, .font-orgue, .font-mouvement{
     font-family: "Caveat Bold";
-    font-size: 28px;
+    font-size: 30px;
 }
 
     #bloc_page_lanote p{
@@ -115,11 +124,12 @@
 /* ########## MENU : Le chic à la française ########## */ 
 .titre_lechic{
     font-family: "Junicode";
-    font-size: 32px;
+    font-size: 26px;
 }
 
 .texte_lechic{
     font-size: 29px;
+    font-weight: bold;
 }
 
 .font-appetit, .font-papilles, .font-gourmandises{
@@ -145,12 +155,12 @@
 /* ########## MENU : Le délice des papilles ########## */ 
 .titre_ledelice{
     font-family: "Dancing Script";
-    font-size: 34px;
+    font-size: 28px;
 }
 
 .texte_ledelice{
     font-family: "Kaushan Script";
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .font-commencer, .font-continuer, .font-terminer{
@@ -182,12 +192,12 @@
 /* ########## MENU : La palette du gout ########## */ 
 .titre_lapalette{
     font-family: "Kaushan Script";
-    font-size: 39px;
+    font-size: 28px;
 }
 
 .texte_lapalette{
     font-family: "Kaushan Script";
-    font-size: 27px;
+    font-size: 30px;
 }
 
 .font-esquisse, .font-oeuvre, .font-sommet{

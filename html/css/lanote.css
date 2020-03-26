@@ -24,13 +24,12 @@
 
 .fin_de_menu{
     margin-top: 60px;
-    text-align: center;
 }
 
 
 /* ########## ELEMENTS GRAPHIQUES ########## */
-.icone_music img{
-   float: left;
+.fin_de_menu img{
+    margin-right: 10px;
 }
 
 .img-l-prelude, .img-l-orgue,.img-l-mouvement{
