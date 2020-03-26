@@ -62,9 +62,19 @@
     font-size: 22px;
 }
 
+/* ########## Ecran ayant une largeur minimum de 350px ########## */
 @media screen and (max-width: 350px){ 
     .items_footer{
         font-size: 16px;
+    }
+}
+
+/* ########## Ecran ayant une largeur minimum de 750px ########## */
+@media screen and (max-width: 750px){
+    .items_footer, .header_infos, .bouton_prochainement{
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: bold;
     }
 }
 
