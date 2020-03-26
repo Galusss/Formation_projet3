@@ -1,11 +1,14 @@
 @charset "UTF-8";
 
+
+/* ########## GENERALE ########## */
 html, body{
     width: 100%;
     height: auto;
 	margin: 0;
 	padding: 0;
 }
+
 
 /* ##### HEADER #####*/
 .header_infos{
@@ -21,6 +24,7 @@ html, body{
     padding-bottom: 10px;
 }
 
+
 /* ##### FOOTER ##### */
 .footer_infos{
     background-color: #579C87;
@@ -30,7 +34,6 @@ html, body{
     width           : 100%;
     left            : 0;
 }
-
 
 .items_footer{
     color: #FDCB46;
@@ -47,4 +50,3 @@ html, body{
 .clic-contact{
     margin-right: 15px;
 }
-

@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
+
 @import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 @import url("fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
 
 
+/* ########## GENERALE ########## */
 #bloc_page_lanote{
     background-color: #FDFFFD;
 }
@@ -18,13 +20,10 @@
     margin-left: 50px;
 }
 
-.titre_lapalette h2{
+.titre_lapalette{
     background: linear-gradient(to right, #3D9339 0%, #BFFF7E 100%);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.titre_lapalette{
+    -webkit-text-fill-color: transparent;
     margin-top: 60px;
 }
 

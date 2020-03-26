@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 
+/* ########## ADD FONTS ########## */
 @font-face{
     font-family: "Devonshire";
     src: url("../../fonts/Devonshire-Regular.ttf");
@@ -41,25 +42,26 @@
     src: url("../../fonts/KaushanScript-Regular.ttf")
 }
 
-/* Général */
-.items_footer p{
+
+/* ########## GENERALE ########## */
+.items_footer{
+    font-family: cursive;
+    font-size: 22px;
+}
+
+.header_infos{
     font-family: cursive;
     font-size: 18px;
 }
 
-.header_infos h1{
+.bouton_prochainement{
     font-family: cursive;
-    font-size: 30px;
-}
-
-.bouton_prochainement h2{
-    font-family: cursive;
-    font-size: 26px;
+    font-size: 28px;
 }
 
 
-/* La note enchantée */ 
-.titre_lanote h2, .fin_de_menu{
+/* ########## MENU : La note enchantée ########## */ 
+.titre_lanote, .fin_de_menu{
     font-family: "Devonshire";
     font-size: 35px;
 }
@@ -83,6 +85,7 @@
     font-size: 24px;
 }
 
+/* ########## Ecran ayant une largeur minimum de 1050px ########## */ 
 @media screen and (max-width: 1050px){ 
     .titre_lanote h2, .fin_de_menu{
         font-size: 22px;
@@ -97,6 +100,7 @@
     }
 }
 
+/* ########## Ecran ayant une largeur minimum de 750px ########## */ 
 @media screen and (max-width: 750px){
     .font-prelude, .font-orgue, .font-mouvement{
         font-size: 15px;
@@ -105,11 +109,11 @@
     #bloc_page_lanote p{
         font-size: 12px;
     }
-}
+}   
 
 
-/* Le chic à la française */ 
-.titre_lechic h2{
+/* ########## MENU : Le chic à la française ########## */ 
+.titre_lechic{
     font-family: "Junicode";
     font-size: 32px;
 }
@@ -126,6 +130,7 @@
     font-family: "Source Serif Pro Regular";
 }
 
+/* ########## Ecran ayant une largeur minimum de 750px ########## */
 @media screen and (max-width: 750px){
     .font-appetit, .font-papilles, .font-gourmandises{
         font-size: 13px;
@@ -137,8 +142,8 @@
 }
 
 
-/* Le délice des papilles */ 
-.titre_ledelice h2{
+/* ########## MENU : Le délice des papilles ########## */ 
+.titre_ledelice{
     font-family: "Dancing Script";
     font-size: 34px;
 }
@@ -174,8 +179,8 @@
 }
 
 
-/* La palette du gout */ 
-.titre_lapalette h2{
+/* ########## MENU : La palette du gout ########## */ 
+.titre_lapalette{
     font-family: "Kaushan Script";
     font-size: 39px;
 }
@@ -207,7 +212,7 @@
 }
 
 
-/* Mentions */
+/* ########## MENTIONS ########## */
 .contenu_mention h2, .contenu_mention h3{
     font-family: "Source Serif Pro";
     font-weight: bold;
@@ -219,6 +224,7 @@
     font-size: 15px;
 }
 
+/* ########## Ecran ayant une largeur minimum de 750px ########## */
 @media screen and (max-width: 750px){
     .contenu_mention p, .contenu_mention ul{
         font-family: "Source Serif Pro Regular";
@@ -229,4 +235,4 @@
     font-family: "Source Serif Pro";
     font-size: 20px;
     }
-}    
+}

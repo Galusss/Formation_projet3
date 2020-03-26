@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
+
 @import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 @import url("fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
 
 
+/* ########## GENERALE ########## */
 #bloc_page_ledelice{
     background-color: #F9F9F9;
 }
@@ -18,14 +20,10 @@
     margin-left: 50px;
 }
 
-.titre_ledelice h2{
+.titre_ledelice{
 	background: linear-gradient(to right, #0431DF 0%, #1789F9 100%);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    ;
-}
-
-.titre_ledelice{
     margin-top: 70px;
     margin-bottom: 15px;
 }
@@ -37,6 +35,7 @@
 .bien_terminer{
     margin-top: 55px;;
 }
+
 
 /* ELEMENTS GRAPHIQUES */ 
 

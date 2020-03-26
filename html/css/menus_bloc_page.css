@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+/* ########## GENERALE ########## */
 body{
     display: flex;
 	flex-direction: column;
@@ -47,4 +49,3 @@ ul{
  #bloc_page_lechic h3, #bloc_page_lanote h3, #bloc_page_lapalette h3, #bloc_page_ledelice h3, .titre_lanote, .titre_lechic, .titre_lapalette, .titre_ledelice{
     text-align: center;
 }
-

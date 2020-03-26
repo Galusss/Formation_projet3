@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
+
 @import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 @import url("fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
 
 
+/* ########## GENERALE ########## */
 #bloc_page_lechic{
     background-color: #FFF5FE;
 }
@@ -18,13 +20,10 @@
     margin-left: 50px;
 }
 
-.titre_lechic h2{
+.titre_lechic{
 	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.titre_lechic{
     margin-top: 80px;
 }
 
@@ -43,6 +42,7 @@
     margin-top: 80px;
     color: #6E4CCC;
 }
+
 
 /* ELEMENTS GRAPHIQUES */
 .img-l-appetit, .img-l-papilles, .img-l-gourmandises{

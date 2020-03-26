@@ -1,11 +1,13 @@
 @charset "UTF-8";
 
+
 @import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 @import url("fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
 
 
+/* ########## GENERALE ########## */
 #bloc_page_lanote{
     background-color: #FDE0DC;
     color: #3C1218;
@@ -25,7 +27,8 @@
     text-align: center;
 }
 
-/* ELEMENTS GRAPHIQUES */
+
+/* ########## ELEMENTS GRAPHIQUES ########## */
 .icone_music img{
    float: left;
 }

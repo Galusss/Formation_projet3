@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
+
 @import url("html/css/structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("html/css/responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 @import url("html/css/fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
 
 
-/* ##### BALISES GENERALE #####*/
-
+/* ########## GENERALE ########## */
 body{
     width: 100%;
     display: flex;
@@ -18,7 +18,8 @@ a{
     color: #FDCB46;
 }
 
-/* ##### MENUS #####*/
+
+/* ########## MENUS ########## */
 .flex_menu1{
     display: flex;
     justify-content: center;
@@ -31,7 +32,8 @@ a{
     margin-top: 50px;
 }
 
-/* ##### (MENU 1) "La note enchantée" #####*/
+
+/* ########## (MENU 1) "La note enchantée" ########## */
 .menu_lanote{
     background-color: #FCDFDB;
     color: #3C1218;
@@ -39,7 +41,6 @@ a{
     box-shadow: 0px 0px 7px rgb(201, 193, 193);
     height: 400px;
     min-width: 300px;
-
 }
 
 .texte_lanote{
@@ -47,14 +48,15 @@ a{
 }
 
 .titre_lanote{
-    line-height: 1px;
+    line-height: 30px;
 }
 
 .titre_lanote, .texte_lanote{
-    padding-top: 130px;
+    padding-top: 110px;
 }
 
-/* ##### (MENU 2) "Le chic à la française" #####*/
+
+/* ########## (MENU 2) "Le chic à la française" ########## */
 .menu_lechic{
     background-color: #FFF5FE;
     text-align: center;
@@ -68,7 +70,7 @@ a{
     color: #C77412;    
 }
 
-.titre_lechic h2{
+.titre_lechic{
 	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: rgba(255, 255, 255,0);
@@ -78,7 +80,8 @@ a{
     padding-top: 120px;
 }
 
-/* ##### (MENU 3) "Le délice des papilles" #####*/
+
+/* ########## (MENU 3) "Le délice des papilles" ########## */
 .menu_ledelice{
     background-color: #F9F9F9;
     text-align: center;
@@ -91,7 +94,7 @@ a{
     color: #2B91F8;
 }
 
-.titre_ledelice h2{
+.titre_ledelice{
 	background: linear-gradient(to right, #0431DF 0%, #1789F9 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -101,7 +104,8 @@ a{
     padding-top: 140px;
 }
 
-/* ##### (MENU 4) "La palette du goût" #####*/
+
+/* ########## (MENU 4) "La palette du goût" ########## */
 .menu_lapalette{
     background-color: #FDFFFD;
     text-align: center;
@@ -115,7 +119,7 @@ a{
     color: #72BF56;
 }
 
-.titre_lapalette h2{
+.titre_lapalette{
     background: linear-gradient(to right, #3D9339 0%, #BFFF7E 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -125,8 +129,9 @@ a{
     padding-top: 125px;
 }
 
-/* ##### PROCHAINEMENT ##### */
-.prochainement {
+
+/* ########## PROCHAINEMENT ########## */
+.prochainement{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +139,7 @@ a{
     padding-bottom: 75px;
 }
 
-.bouton_prochainement h2{
+.bouton_prochainement{
     color: #FDCB46;
     background: #579C87;
     border-radius: 8px;
@@ -142,13 +147,13 @@ a{
     text-align: center;
 }
 
-.bouton_prochainement h2:hover{
+.bouton_prochainement:hover{
     color: #FDCB46;;
     background: #4ac49d;
     background: linear-gradient( #4ac49d, #13c287);
 }
 
-.bouton_prochainement h2:active{
+.bouton_prochainement:active{
     color: #FDCB46;
     background: #579C87;
     background: linear-gradient( #4ac49d, #46cea1);            
