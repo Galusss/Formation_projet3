@@ -29,10 +29,10 @@
     margin-top: 50px;
 }
 
-
 /* ########## ELEMENTS GRAPHIQUES ########## */
 .fin_de_menu img{
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 .img-l-prelude, .img-l-orgue,.img-l-mouvement{
