@@ -10,20 +10,31 @@
     background-color: #FDFFFD;
 }
 
+#bloc_page_lapalette .prix{
+    margin-right: 50px;
+}
+
+#bloc_page_lapalette p{
+    margin-left: 50px;
+}
+
 .titre_lapalette h2{
     background: linear-gradient(to right, #3D9339 0%, #BFFF7E 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-.titre_lapalette, .esquisse, .oeuvre{
-    margin-top: 45px;
-    margin-bottom: 45px;
+.titre_lapalette{
+    margin-top: 60px;
+}
+
+.esquisse, .oeuvre{
+    margin-top: 50px;
 }
 
 .au_sommet{
-    margin-top: 45px;
-    margin-bottom: 90px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .img-l-lapalette{

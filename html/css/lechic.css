@@ -10,26 +10,37 @@
     background-color: #FFF5FE;
 }
 
+#bloc_page_lechic .prix{
+    margin-right: 50px;
+}
+
+#bloc_page_lechic p{
+    margin-left: 50px;
+}
+
 .titre_lechic h2{
 	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-top: 75px;
+}
+
+.titre_lechic{
+    margin-top: 80px;
 }
 
 .en_appetit{
     color: #C77412;
-    margin-top: 75px;
+    margin-top: 80px;
 
 }
 
 .plaisir_papilles{
     color: #A56799;
-    margin-top: 75px;
+    margin-top: 80px;
 }
 
 .gourmandises{
-    margin-top: 75px;
+    margin-top: 80px;
     color: #6E4CCC;
 }
 

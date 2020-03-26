@@ -10,6 +10,14 @@
     background-color: #F9F9F9;
 }
 
+#bloc_page_ledelice .prix{
+    margin-right: 50px;
+}
+
+#bloc_page_ledelice p{
+    margin-left: 50px;
+}
+
 .titre_ledelice h2{
 	background: linear-gradient(to right, #0431DF 0%, #1789F9 100%);
 	-webkit-background-clip: text;
@@ -17,14 +25,17 @@
     ;
 }
 
-.titre_ledelice, .bien_commencer, .bien_continuer{
-    margin-top: 45px;
-    margin-bottom: 45px;
+.titre_ledelice{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
+.bien_commencer, .bien_continuer{
+    margin-top: 55px;
 }
 
 .bien_terminer{
-    margin-top: 45px;
-    margin-bottom: 90px;
+    margin-top: 55px;;
 }
 
 /* ELEMENTS GRAPHIQUES */ 

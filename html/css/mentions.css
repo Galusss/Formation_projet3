@@ -2,7 +2,7 @@
 
 @import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
-@import url("fonts/fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
+@import url("fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
 
 
 body{
@@ -24,15 +24,9 @@ a{
 }
 
 .mention1, .mention2, .mention3, .mention4{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.mention4{
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
-footer{
-    margin-top: auto;
-}
+
 

@@ -41,22 +41,36 @@
     src: url("../../fonts/KaushanScript-Regular.ttf")
 }
 
-
 /* Général */
-.items_footer p, .header_infos h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+.items_footer p{
+    font-family: cursive;
+    font-size: 18px;
 }
 
-.prix{
-    font-weight: bold;
+.header_infos h1{
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.bouton_prochainement h2{
+    font-family: cursive;
+    font-size: 26px;
 }
 
 
 /* La note enchantée */ 
 .titre_lanote h2, .fin_de_menu{
     font-family: "Devonshire";
+    font-size: 35px;
+}
+
+.texte_lanote{
+    font-family: "Caveat Bold";
     font-size: 30px;
+}
+
+#bloc_page_lanote .prix{
+    font-weight: bold;
 }
 
 .font-prelude, .font-orgue, .font-mouvement{
@@ -95,10 +109,13 @@
 
 
 /* Le chic à la française */ 
-
 .titre_lechic h2{
     font-family: "Junicode";
-    font-size: 25px;
+    font-size: 32px;
+}
+
+.texte_lechic{
+    font-size: 29px;
 }
 
 .font-appetit, .font-papilles, .font-gourmandises{
@@ -109,26 +126,26 @@
     font-family: "Source Serif Pro Regular";
 }
 
-#bloc_page_lechic .prix{
-    font-weight: initial;
-}
-
 @media screen and (max-width: 750px){
     .font-appetit, .font-papilles, .font-gourmandises{
         font-size: 13px;
     }
 
     #bloc_page_lechic p{
-        font-size: 9px;
+        font-size: 8px;
     }
 }
 
 
 /* Le délice des papilles */ 
-
 .titre_ledelice h2{
     font-family: "Dancing Script";
-    font-size: 26px;
+    font-size: 34px;
+}
+
+.texte_ledelice{
+    font-family: "Kaushan Script";
+    font-size: 27px;
 }
 
 .font-commencer, .font-continuer, .font-terminer{
@@ -139,7 +156,7 @@
 
 #bloc_page_ledelice p{
     font-family: "Caveat Regular";
-    font-size: 25px;
+    font-size: 21px;
 }
 
 #bloc_page_ledelice .prix{
@@ -158,3 +175,58 @@
 
 
 /* La palette du gout */ 
+.titre_lapalette h2{
+    font-family: "Kaushan Script";
+    font-size: 39px;
+}
+
+.texte_lapalette{
+    font-family: "Kaushan Script";
+    font-size: 27px;
+}
+
+.font-esquisse, .font-oeuvre, .font-sommet{
+    font-family: "Caveat Regular";
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#bloc_page_lapalette p{
+    font-family: "Caveat Regular";
+    font-size: 20px;
+}
+
+@media screen and (max-width: 750px){
+    .font-esquisse, .font-oeuvre, .font-sommet{
+        font-size: 19px;
+    }
+
+    #bloc_page_lapalette p{
+        font-size: 11px;
+    }
+}
+
+
+/* Mentions */
+.contenu_mention h2, .contenu_mention h3{
+    font-family: "Source Serif Pro";
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.contenu_mention p, .contenu_mention ul{
+    font-family: "Source Serif Pro Regular";
+    font-size: 15px;
+}
+
+@media screen and (max-width: 750px){
+    .contenu_mention p, .contenu_mention ul{
+        font-family: "Source Serif Pro Regular";
+        font-size: 10px;
+    }
+
+    .contenu_mention h2, .contenu_mention h3{
+    font-family: "Source Serif Pro";
+    font-size: 20px;
+    }
+}    
