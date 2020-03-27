@@ -18,13 +18,18 @@ ul{
 
 
 /* ##### MENUS ##### */
+
+.titre-menus{
+    text-align: center;
+    margin-top: 50px;
+}
+
 #bloc_page_lechic, #bloc_page_lanote, #bloc_page_lapalette, #bloc_page_ledelice{
     box-shadow: 0px 0px 7px rgb(201, 193, 193);
     display: flex;
     justify-content: center;
     align-self: center;
     width: 800px;
-    margin-top: 50px;
     margin-bottom: 100px;
 }
 

@@ -36,8 +36,6 @@ a{
 /* ########## (MENU 1) "La note enchantée" ########## */
 .menu_lanote{
     background-color: #FCDFDB;
-    color: #3C1218;
-    text-align: center;
     box-shadow: 0px 0px 7px rgb(201, 193, 193);
     height: 400px;
     min-width: 300px;
@@ -46,17 +44,28 @@ a{
     align-items: center;
     justify-content: center;
     line-height: 35px; 
-    outline: 0
+}
+
+.clic-lanote, .clic-lechic, .clic-ledelice, .clic-lapalette{
+    transform: scale(1);
+    transition: transform 0.2s;
+    color: #3C1218;
+    text-align: center;
+}
+
+.clic-lanote:hover, .clic-lechic:hover, .clic-ledelice:hover, .clic-lapalette:hover{
+    transform: scale(1.15);
+    opacity: 0.50;
 }
 
 .titre_lanote, .texte_lanote{
     margin-bottom: 50px;
-    outline: 0
+
 }
 
 .texte_lanote{
     color: #3C1218;
-    outline: 0
+
 }
 
 
@@ -154,16 +163,4 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.bouton_prochainement:hover{
-    color: #FDCB46;;
-    background: #4ac49d;
-    background: linear-gradient( #4ac49d, #13c287);
-}
-
-.bouton_prochainement:active{
-    color: #FDCB46;
-    background: #579C87;
-    background: linear-gradient( #4ac49d, #46cea1);          
 }

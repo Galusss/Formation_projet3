@@ -62,12 +62,21 @@
     font-size: 22px;
 }
 
-/* ########## Ecran ayant une largeur minimum de 750px ########## */
+.titre-menus{
+    font-size: 28px;
+    font-family: Arial;
+}
+
+/* ########## Ecran ayant une largeur minimum de 950px ########## */
 @media screen and (max-width: 950px){
     .items_footer, .header_infos, .bouton_prochainement{
         font-family: Arial;
         font-size: 15px;
         font-weight: bold;
+    }
+
+    .titre-menus{
+        font-size: 24px;
     }
 }
 
@@ -75,7 +84,7 @@
 /* ########## MENU : La note enchantée ########## */ 
 .titre_lanote, .fin_de_menu{
     font-family: "Devonshire";
-    font-size: 33px;
+    font-size: 35px;
 }
 
 .menu-titre_lanote{
@@ -102,11 +111,13 @@
     font-size: 24px;
 }
 
-/* ########## Ecran ayant une largeur minimum de 1050px ########## */ 
-
 
 /* ########## Ecran ayant une largeur minimum de 750px ########## */ 
 @media screen and (max-width: 750px){
+    .menu-titre_lanote{
+        font-size: 30px;
+    }
+
     .font-prelude, .font-orgue, .font-mouvement{
         font-size: 15px;
     }
@@ -116,7 +127,7 @@
     }
 
     .fin_de_menu{
-        font-size: 30px;
+        font-size: 20px;
     }
 }   
 
