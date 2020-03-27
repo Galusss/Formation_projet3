@@ -169,6 +169,11 @@
     font-size: 28px;
 }
 
+.menu-titre_ledelice{
+    font-family: "Dancing Script";
+    font-size: 50px;
+}
+
 .texte_ledelice{
     font-family: "Kaushan Script";
     font-size: 30px;
@@ -195,13 +200,22 @@
     }
 
     #bloc_page_ledelice p{
-        font-size: 13px;
+        font-size: 9px;
+    }
+
+    .menu-titre_ledelice{
+        font-size: 32px;
     }
 }
 
 
 /* ########## MENU : La palette du gout ########## */ 
 .titre_lapalette{
+    font-family: "Kaushan Script";
+    font-size: 28px;
+}
+
+.menu-titre_lapalette{
     font-family: "Kaushan Script";
     font-size: 28px;
 }

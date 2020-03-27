@@ -20,7 +20,7 @@
     margin-left: 50px;
 }
 
-.titre_lapalette{
+.menu-titre_lapalette{
     background: linear-gradient(to right, #3D9339 0%, #BFFF7E 100%);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

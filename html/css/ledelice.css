@@ -20,12 +20,12 @@
     margin-left: 50px;
 }
 
-.titre_ledelice{
+.menu-titre_ledelice{
 	background: linear-gradient(to right, #0431DF 0%, #1789F9 100%);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 70px;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 .bien_commencer, .bien_continuer{
@@ -33,7 +33,7 @@
 }
 
 .bien_terminer{
-    margin-top: 55px;;
+    margin-top: 55px;
 }
 
 
