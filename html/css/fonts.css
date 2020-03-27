@@ -62,18 +62,11 @@
     font-size: 22px;
 }
 
-/* ########## Ecran ayant une largeur minimum de 350px ########## */
-@media screen and (max-width: 350px){ 
-    .items_footer{
-        font-size: 16px;
-    }
-}
-
 /* ########## Ecran ayant une largeur minimum de 750px ########## */
 @media screen and (max-width: 750px){
     .items_footer, .header_infos, .bouton_prochainement{
         font-family: Arial;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: bold;
     }
 }
@@ -83,6 +76,11 @@
 .titre_lanote, .fin_de_menu{
     font-family: "Devonshire";
     font-size: 33px;
+}
+
+.menu-titre_lanote{
+    font-family: "Devonshire";
+    font-size: 40px;
 }
 
 .texte_lanote{
@@ -116,6 +114,10 @@
     #bloc_page_lanote p{
         font-size: 12px;
     }
+
+    .fin_de_menu{
+        font-size: 30px;
+    }
 }   
 
 
@@ -123,6 +125,11 @@
 .titre_lechic{
     font-family: "Junicode";
     font-size: 26px;
+}
+
+.menu-titre_lechic{
+    font-family: "Junicode";
+    font-size: 44px;
 }
 
 .texte_lechic{
@@ -136,6 +143,7 @@
 
 #bloc_page_lechic p{
     font-family: "Source Serif Pro Regular";
+    font-size: 16.5px;
 }
 
 /* ########## Ecran ayant une largeur minimum de 750px ########## */
@@ -145,7 +153,12 @@
     }
 
     #bloc_page_lechic p{
-        font-size: 8px;
+        font-size: 7px;
+    }
+
+    .menu-titre_lechic{
+        font-family: "Junicode";
+        font-size: 26px;
     }
 }
 

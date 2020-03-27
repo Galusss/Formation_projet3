@@ -13,7 +13,7 @@
     color: #3C1218;
 }
 
-.titre_lanote{
+.menu-titre_lanote{
     margin-top: 50px;
 }
 
@@ -28,6 +28,7 @@
 .fin_de_menu{
     margin-top: 50px;
 }
+
 
 /* ########## ELEMENTS GRAPHIQUES ########## */
 .fin_de_menu img{

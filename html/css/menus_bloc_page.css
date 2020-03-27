@@ -46,6 +46,6 @@ ul{
     width: 600px;
 }
 
- #bloc_page_lechic h3, #bloc_page_lanote h3, #bloc_page_lapalette h3, #bloc_page_ledelice h3, .titre_lanote, .titre_lechic, .titre_lapalette, .titre_ledelice{
+ #bloc_page_lechic h3, #bloc_page_lanote h3, #bloc_page_lapalette h3, #bloc_page_ledelice h3, .menu-titre_lanote, .menu-titre_lechic, .menu-titre_lapalette, .menu-titre_ledelice{
     text-align: center;
 }

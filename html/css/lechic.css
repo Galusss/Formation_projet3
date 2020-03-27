@@ -20,7 +20,7 @@
     margin-left: 50px;
 }
 
-.titre_lechic{
+.menu-titre_lechic{
 	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
