@@ -217,7 +217,7 @@
 
 .menu-titre_lapalette{
     font-family: "Kaushan Script";
-    font-size: 28px;
+    font-size: 50px;
 }
 
 .texte_lapalette{
@@ -242,7 +242,12 @@
     }
 
     #bloc_page_lapalette p{
-        font-size: 11px;
+        font-size: 8px;
+    }
+
+    .menu-titre_lapalette{
+        font-family: "Kaushan Script";
+        font-size: 30px;
     }
 }
 

@@ -51,11 +51,11 @@
         height: 750px;
     }
 
-    #bloc_page_ledelice{
-        height: 650px;
+    #bloc_page_ledelice, #bloc_page_lapalette{
+        height: 600px;
     }
 
-    #bloc_page_lechic, #bloc_page_lapalette{
+    #bloc_page_lechic{
         height: 700px;
     }
 }
