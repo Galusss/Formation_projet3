@@ -63,7 +63,7 @@
 }
 
 /* ########## Ecran ayant une largeur minimum de 750px ########## */
-@media screen and (max-width: 750px){
+@media screen and (max-width: 950px){
     .items_footer, .header_infos, .bouton_prochainement{
         font-family: Arial;
         font-size: 15px;

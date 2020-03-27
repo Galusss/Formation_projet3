@@ -46,14 +46,17 @@ a{
     align-items: center;
     justify-content: center;
     line-height: 35px; 
+    outline: 0
 }
 
 .titre_lanote, .texte_lanote{
     margin-bottom: 50px;
+    outline: 0
 }
 
 .texte_lanote{
     color: #3C1218;
+    outline: 0
 }
 
 
