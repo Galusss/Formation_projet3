@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+
+/* ########## Effet soulignement ########## */
+.font-prelude, .font-orgue, .font-mouvement, .font-appetit, .font-papilles, .font-gourmandises, .font-commencer, .font-continuer, .font-terminer, .font-esquisse, .font-oeuvre, .font-sommet{
+    position: relative;
+}
+
+.font-prelude:after, .font-orgue:after, .font-mouvement:after, .font-appetit:after, .font-papilles:after, .font-gourmandises:after, .font-commencer:after, .font-continuer:after, .font-terminer:after, .font-esquisse:after, .font-oeuvre:after, .font-sommet:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    margin-top: 10px;
+    right: 0;
+    transition: width .3s ease;
+    -webkit-transition: width .3s ease;
+}
+ 
+.font-prelude:hover:after, .font-orgue:hover:after, .font-mouvement:hover:after{
+    width: 100%;
+    left: 0;
+    background: #3C1218;
+}
+
+.font-appetit:hover:after{
+    width: 100%;
+    left: 0;
+    background: #C77412;
+}
+
+.font-papilles:hover:after{
+    width: 100%;
+    left: 0;
+    background: #A56799;
+}
+
+.font-gourmandises:hover:after{
+    width: 100%;
+    left: 0;
+    background: #6E4CCC;
+}
+
+.font-commencer:hover:after{
+    width: 100%;
+    left: 0;
+    background: #0023DE;
+}
+
+.font-continuer:hover:after{
+    width: 100%;
+    left: 0;
+    background: #0170F3;
+}
+
+.font-terminer:hover:after{
+    width: 100%;
+    left: 0;
+    background: #1C9EF9;
+}
+
+.font-esquisse:hover:after, .font-oeuvre:hover:after, .font-sommet:hover:after{
+    width: 100%;
+    left: 0;
+    background: #3F9739;
+}
+
+
+/* ########## Effet zoom ########## */
+.clic-lanote, .clic-lechic, .clic-ledelice, .clic-lapalette{
+    transform: scale(1);
+    transition: transform 0.2s;
+    color: #3C1218;
+    text-align: center;
+}
+
+.clic-lanote:hover, .clic-lechic:hover, .clic-ledelice:hover, .clic-lapalette:hover{
+    transform: scale(1.15);
+    opacity: 0.50;
+}
+
+
+/* ########## Effet wiggle ########## */
+.clic-contact:hover, .clic-mention:hover {
+  animation: shake 800ms cubic-bezier(.36,.07,.19,.97) both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(4px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+/* ########## Points de suspesions ########## */
+
+.bouton_prochainement:after {
+  display: inline-block;
+  animation: dotty steps(1,end) 1s infinite;
+  content: '';
+}
+
+@keyframes dotty {
+  0%   { content: ''; }
+  25%  { content: '.'; }
+  50%  { content: '..'; }
+  75%  { content: '...'; }
+  100% { content: ''; }
+}

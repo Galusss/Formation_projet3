@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+
+@import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
+@import url("menus_bloc_page.css"); /* Permet d'importer la feuille css qui met en place le bloc_page des menus */
+@import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
+@import url("fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
+@import url("animation.css"); /* Permet d'importer la feuille css qui met en place les animations */
+
+
+/* ########## (MENU 1) "La note enchantée" ########## */
+/* ########## GENERALE ########## */
+#bloc_page_lanote{
+    background-color: #FDE0DC;
+    color: #3C1218;
+}
+
+.menu-titre_lanote{
+    margin-top: 50px;
+}
+
+.prelude{
+    margin-top: 50px;
+}
+
+.point_orgue, .mouvement_final{
+    margin-top: 40px;
+}
+
+.fin_de_menu{
+    margin-top: 50px;
+}
+
+/* ########## ELEMENTS GRAPHIQUES ########## */
+.fin_de_menu img{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.img-l-prelude, .img-l-orgue,.img-l-mouvement{
+    float: left;
+}
+
+.img-r-prelude, .img-r-orgue, .img-r-mouvement{
+    float: right;
+}
+
+.titre_prelude, .titre_orgue, .titre_mouvement{
+    line-height: 3px;
+}
+
+
+/* ########## (MENU 2) "Le chic à la française" ########## */
+/* ########## GENERALE ########## */
+#bloc_page_lechic{
+    background-color: #FFF5FE;
+}
+
+#bloc_page_lechic .prix{
+    margin-right: 50px;
+}
+
+#bloc_page_lechic p{
+    margin-left: 50px;
+}
+
+.menu-titre_lechic{
+	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 30px;
+}
+
+.en_appetit{
+    color: #C77412;
+    margin-top: 80px;
+
+}
+
+.plaisir_papilles{
+    color: #A56799;
+    margin-top: 80px;
+}
+
+.gourmandises{
+    margin-top: 80px;
+    color: #6E4CCC;
+}
+
+/* ELEMENTS GRAPHIQUES */
+.img-l-appetit, .img-l-papilles, .img-l-gourmandises{
+    float: left;
+}
+
+.img-r-appetit, .img-r-papilles, .img-r-gourmandises{
+    float: right;
+}
+
+.titre_en_appetit, .titre_papilles, .titre_gourmandises{
+    line-height: 5px;
+}
+
+
+/* ########## (MENU 3) "Le délices des papilles" ########## */
+/* ########## GENERALE ########## */
+#bloc_page_ledelice{
+    background-color: #F9F9F9;
+}
+
+#bloc_page_ledelice .prix{
+    margin-right: 50px;
+}
+
+#bloc_page_ledelice p{
+    margin-left: 50px;
+}
+
+.menu-titre_ledelice{
+	background: linear-gradient(to right, #0431DF 0%, #1789F9 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.bien_commencer, .bien_continuer{
+    margin-top: 55px;
+}
+
+.bien_terminer{
+    margin-top: 55px;
+}
+
+/* ELEMENTS GRAPHIQUES */ 
+.img-l-commencer, .img-l-continuer, .img-l-terminer{
+    float: left;
+}
+
+.img-r-commencer, .img-r-continuer, .img-r-terminer{
+    float: right;
+}
+
+.titre_commencer, .titre_continuer, .titre_terminer{
+    line-height: 8px;
+}
+
+
+/* ########## (MENU 4) "La palette du goût" ########## */
+/* ########## GENERALE ########## */
+#bloc_page_lapalette{
+    background-color: #FDFFFD;
+}
+
+#bloc_page_lapalette .prix{
+    margin-right: 50px;
+}
+
+#bloc_page_lapalette p{
+    margin-left: 50px;
+}
+
+.menu-titre_lapalette{
+    background: linear-gradient(to right, #3D9339 0%, #BFFF7E 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.esquisse, .oeuvre{
+    margin-top: 50px;
+}
+
+.au_sommet{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.img-l-lapalette{
+    float: left;
+}
+
+.img-r-lapalette{
+    float: right;
+}
+
+.titre_esquisse, .titre_oeuvre, .titre_sommet{
+    line-height: 5px;
+}

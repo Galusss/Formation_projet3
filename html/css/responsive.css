@@ -22,6 +22,11 @@
         margin-top: 50px;
     }
 
+    .flex_menu1{
+        padding-top: 20px;
+        margin-bottom: 50px;
+    }
+
     /* ########## MENUS ########## */
     #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
         max-width: 750px;
@@ -48,14 +53,10 @@
     }
     
     #bloc_page_lanote{
-        height: 850px;
+        height: 800px;
     }
 
-    #bloc_page_ledelice, #bloc_page_lapalette{
+    #bloc_page_ledelice, #bloc_page_lapalette, #bloc_page_lechic{
         height: 600px;
-    }
-
-    #bloc_page_lechic{
-        height: 700px;
     }
 }

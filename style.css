@@ -4,6 +4,7 @@
 @import url("html/css/structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("html/css/responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 @import url("html/css/fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
+@import url("html/css/animation.css"); /* Permet d'importer la feuille css qui met en place les animations */
 
 
 /* ########## GENERALE ########## */
@@ -29,7 +30,7 @@ a{
 .flex_menu2{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 
@@ -46,18 +47,6 @@ a{
     line-height: 35px; 
 }
 
-.clic-lanote, .clic-lechic, .clic-ledelice, .clic-lapalette{
-    transform: scale(1);
-    transition: transform 0.2s;
-    color: #3C1218;
-    text-align: center;
-}
-
-.clic-lanote:hover, .clic-lechic:hover, .clic-ledelice:hover, .clic-lapalette:hover{
-    transform: scale(1.15);
-    opacity: 0.50;
-}
-
 .titre_lanote, .texte_lanote{
     margin-bottom: 50px;
 
@@ -65,7 +54,6 @@ a{
 
 .texte_lanote{
     color: #3C1218;
-
 }
 
 
@@ -164,3 +152,4 @@ a{
     align-items: center;
     justify-content: center;
 }
+
