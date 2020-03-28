@@ -21,13 +21,13 @@ a{
 
 
 /* ########## MENUS ########## */
-.flex_menu1{
+.flex1{
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-.flex_menu2{
+.flex2{
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -142,7 +142,7 @@ a{
     padding-bottom: 70px;
 }
 
-.bouton_prochainement{
+.btn{
     color: #FDCB46;
     background: #579C87;
     border-radius: 8px;

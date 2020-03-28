@@ -107,10 +107,11 @@
 
 /* ########## Points de suspesions ########## */
 
-.bouton_prochainement:after {
+.btn:after {
   display: inline-block;
-  animation: dotty steps(1,end) 1s infinite;
+  animation: dotty steps(1,end) 2s infinite;
   content: '';
+  width: 5%;
 }
 
 @keyframes dotty {

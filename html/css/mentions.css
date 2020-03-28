@@ -4,6 +4,7 @@
 @import url("structure.css"); /* Permet d'importer la feuille css qui met en place le header et le footer */
 @import url("responsive.css"); /* Permet d'importer la feuille css qui met en place le responsive du site web */
 @import url("fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
+@import url("animation.css"); /* Permet d'importer la feuille css qui met en place les animations */
 
 
 /* ########## GENERALE ########## */
@@ -12,21 +13,12 @@ body{
     flex-direction: column;
 }
 
-#contenu_mention{
-    margin-top: 40px;
-    margin-bottom: 90px;
-}
-
-h1, h2, h3, p, ul{
-    text-align: center;
-}
-
-ul{
-    list-style: none;
-}
-
-a{
+header a, footer a{
     text-decoration: none;
     color: #FDCB46;
+}
+
+.fin-mentions{
+    margin-bottom: 100px;
 }
 
