@@ -15,8 +15,9 @@
     color: #3C1218;
 }
 
-.menu-titre_lanote{
+.page_lanote_menu h2{
     margin-top: 50px;
+    text-align: center;
 }
 
 .prelude{
@@ -45,8 +46,8 @@
     float: right;
 }
 
-.titre_prelude, .titre_orgue, .titre_mouvement{
-    line-height: 3px;
+.prelude h3, .point_orgue h3, .mouvement_final h3{
+    line-height: 2px;
 }
 
 
@@ -64,11 +65,12 @@
     margin-left: 50px;
 }
 
-.menu-titre_lechic{
-	background: linear-gradient(to right, #D8852E 0%, #905BFD 100%);
+.page_lechic_menu h2{
+	background: -webkit-linear-gradient(left, #D8852E, #905BFD);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 30px;
+    text-align: center;
 }
 
 .en_appetit{
@@ -96,8 +98,8 @@
     float: right;
 }
 
-.titre_en_appetit, .titre_papilles, .titre_gourmandises{
-    line-height: 5px;
+.en_appetit h3, .plaisir_papilles h3, .gourmandises h3{
+    line-height: 2px;
 }
 
 
@@ -115,12 +117,13 @@
     margin-left: 50px;
 }
 
-.menu-titre_ledelice{
-	background: linear-gradient(to right, #0431DF 0%, #1789F9 100%);
+.page_ledelice_menu h2{
+	background: -webkit-linear-gradient(left, #0431DF, #1789F9);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 70px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .bien_commencer, .bien_continuer{
@@ -140,10 +143,13 @@
     float: right;
 }
 
-.titre_commencer, .titre_continuer, .titre_terminer{
-    line-height: 8px;
+.bien_commencer h3, .bien_continuer h3, .bien_terminer h3{
+    line-height: 4px;
 }
 
+.bien_commencer img, .bien_continuer img, .bien_terminer img{
+    width: 27%;
+}
 
 /* ########## (MENU 4) "La palette du goût" ########## */
 /* ########## GENERALE ########## */
@@ -159,12 +165,13 @@
     margin-left: 50px;
 }
 
-.menu-titre_lapalette{
-    background: linear-gradient(to right, #3D9339 0%, #BFFF7E 100%);
+.page_lapalette_menu h2{
+    background: -webkit-linear-gradient(left, #3D9339, #BFFF7E);
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 60px;
     margin-bottom: 70px;
+    text-align: center;
 }
 
 .esquisse, .oeuvre{
@@ -176,6 +183,7 @@
     margin-bottom: 60px;
 }
 
+/* ELEMENTS GRAPHIQUES */ 
 .img-l-lapalette{
     float: left;
 }
@@ -184,6 +192,12 @@
     float: right;
 }
 
-.titre_esquisse, .titre_oeuvre, .titre_sommet{
+.esquisse h3, .oeuvre h3, .au_sommet h3{
     line-height: 5px;
+}
+
+
+/*Tout les menus*/
+.en_appetit img, .plaisir_papilles img, .gourmandises img, .prelude img, .point_orgue img , .mouvement_final img, .bien_commencer img, .bien_continuer img, .bien-terminer img, .esquisse img, .oeuvre img, .au_sommet img{
+    width:30%;
 }

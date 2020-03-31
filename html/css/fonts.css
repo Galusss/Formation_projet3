@@ -69,18 +69,18 @@
 
 
 /* ########## MENU : La note enchantée ########## */ 
-.titre_lanote, .fin_de_menu{
+.menu_lanote h2, .fin_de_menu{
     font-family: "Devonshire";
     font-size: 35px;
 }
 
-.menu-titre_lanote{
+.page_lanote_menu h2{
     font-family: "Devonshire";
     font-size: 40px;
     color: #3C1218;
 }
 
-.texte_lanote{
+.menu_lanote p{
     font-family: "Caveat Bold";
     font-size: 28px;
 }
@@ -89,34 +89,34 @@
     font-weight: bold;
 }
 
-.font-prelude, .font-orgue, .font-mouvement{
+.anim-lanote{
     font-family: "Caveat Bold";
     font-size: 30px;
 }
 
-    #bloc_page_lanote p{
-    font-family: "Caveat Regular";
-    font-size: 24px;
+#bloc_page_lanote p{
+font-family: "Caveat Regular";
+font-size: 24px;
 }
 
 
 /* ########## MENU : Le chic à la française ########## */ 
-.titre_lechic{
+.menu_lechic h2{
     font-family: "Junicode";
     font-size: 26px;
 }
 
-.menu-titre_lechic{
+.page_lechic_menu h2{
     font-family: "Junicode";
     font-size: 44px;
 }
 
-.texte_lechic{
+.menu_lechic p{
     font-size: 29px;
     font-weight: bold;
 }
 
-.font-appetit, .font-papilles, .font-gourmandises{
+.anim-appetit, .anim-papilles, .anim-gourmandises{
     font-family: "Source Serif Pro";
 }
 
@@ -127,22 +127,22 @@
 
 
 /* ########## MENU : Le délice des papilles ########## */ 
-.titre_ledelice{
+.menu_ledelice h2{
     font-family: "Dancing Script";
     font-size: 28px;
 }
 
-.menu-titre_ledelice{
+.page_ledelice_menu h2{
     font-family: "Dancing Script";
     font-size: 50px;
 }
 
-.texte_ledelice{
+.menu_ledelice p{
     font-family: "Kaushan Script";
     font-size: 30px;
 }
 
-.font-commencer, .font-continuer, .font-terminer{
+.anim-commencer, .anim-continuer, .anim-terminer{
     font-family: "Caveat Regular";
     font-weight: 500;
     font-size: 29px;
@@ -159,22 +159,22 @@
 
 
 /* ########## MENU : La palette du gout ########## */ 
-.titre_lapalette{
+.menu_lapalette h2{
     font-family: "Kaushan Script";
     font-size: 28px;
 }
 
-.menu-titre_lapalette{
+.page_lapalette_menu h2{
     font-family: "Kaushan Script";
     font-size: 50px;
 }
 
-.texte_lapalette{
+.menu_lapalette p{
     font-family: "Kaushan Script";
     font-size: 30px;
 }
 
-.font-esquisse, .font-oeuvre, .font-sommet{
+.anim-esquisse, .anim-oeuvre, .anim-sommet{
     font-family: "Caveat Regular";
     font-size: 28px;
     font-weight: 500;
@@ -187,7 +187,7 @@
 
 
 /* ########## MENTIONS ########## */
-.contenu_mention h2, .contenu_mention h3{
+#contenu_mention h2, #contenu_mention h3{
     font-size: 24px;
     font-weight: bold;
     color: grey;
@@ -213,60 +213,12 @@
 
 /* ########## Ecran ayant une largeur maximum de 750px ########## */
 @media screen and (max-width: 750px){
-    .contenu_mention p, .contenu_mention ul{
-        font-family: "Source Serif Pro Regular";
-        font-size: 10px;
-    }
-
-    .contenu_mention h2, .contenu_mention h3{
-    font-family: "Source Serif Pro";
-    font-size: 20px;
-    }
-
-    .font-esquisse, .font-oeuvre, .font-sommet{
-        font-size: 19px;
-    }
-
-    #bloc_page_lapalette p{
-        font-size: 8px;
-    }
-
-    .menu-titre_lapalette{
-        font-family: "Kaushan Script";
-        font-size: 30px;
-    }
-
-    .font-commencer, .font-continuer, .font-terminer{
-        font-size: 19px;
-    }
-
-    #bloc_page_ledelice p{
-        font-size: 9px;
-    }
-
-    .menu-titre_ledelice{
+    .page_lanote_menu h2{
         font-size: 32px;
     }
 
-    .font-appetit, .font-papilles, .font-gourmandises{
-        font-size: 13px;
-    }
-
-    #bloc_page_lechic p{
-        font-size: 7px;
-    }
-
-    .menu-titre_lechic{
-        font-family: "Junicode";
-        font-size: 26px;
-    }
-
-    .menu-titre_lanote{
-        font-size: 30px;
-    }
-
-    .font-prelude, .font-orgue, .font-mouvement{
-        font-size: 15px;
+    .anim-lanote{
+    font-size: 18px;
     }
 
     #bloc_page_lanote p{
@@ -274,6 +226,42 @@
     }
 
     .fin_de_menu{
-        font-size: 20px;
+        font-size: 27px;
+    }
+
+    .page_lechic_menu h2{
+        font-size: 30px;
+    }
+
+    .anim-appetit, .anim-papilles, .anim-gourmandises{
+        font-size: 11px;
+    }
+
+    #bloc_page_lechic p{
+    font-size: 7px;
+    }
+
+    .page_ledelice_menu h2{
+    font-size: 30px;
+    }
+
+    .anim-commencer, .anim-continuer, .anim-terminer{
+    font-size: 17px;
+    }
+
+    #bloc_page_ledelice p{
+    font-size: 9px;
+    }
+
+    .page_lapalette_menu h2{
+    font-size: 30px;
+    }
+
+    .anim-esquisse, .anim-oeuvre, .anim-sommet{
+    font-size: 18px;
+    }
+
+    #bloc_page_lapalette p{
+    font-size: 8px;
     }
 }

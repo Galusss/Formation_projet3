@@ -26,6 +26,7 @@
         margin-bottom: 50px;
     }
 
+
     /* ########## MENUS ########## */
     #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
         max-width: 750px;
@@ -38,7 +39,8 @@
 
     /* ########## MENUS ########## */
     #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
-        max-width: 700px;
+        width: 80%;
+        min-width: 700px;
     }
 }
 
@@ -48,7 +50,8 @@
 
     /* ########## MENUS ########## */
     #bloc_page_lanote, #bloc_page_lechic, #bloc_page_lapalette, #bloc_page_ledelice{
-        max-width: 310px;
+        width: 80%;
+        min-width: 310px;
     }
     
     #bloc_page_lanote{

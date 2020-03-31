@@ -29,7 +29,8 @@ ul{
     display: flex;
     justify-content: center;
     align-self: center;
-    width: 800px;
+    width: 50%;
+    min-width: 800px;
     margin-bottom: 100px;
 }
 
