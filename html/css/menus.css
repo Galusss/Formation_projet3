@@ -8,6 +8,7 @@
 @import url("animation.css"); /* Permet d'importer la feuille css qui met en place les animations */
 
 
+
 /* ########## (MENU 1) "La note enchantée" ########## */
 /* ########## GENERALE ########## */
 #bloc_page_lanote{
@@ -16,7 +17,6 @@
 }
 
 .page_lanote_menu h2{
-    margin-top: 50px;
     text-align: center;
 }
 
@@ -33,6 +33,12 @@
 }
 
 /* ########## ELEMENTS GRAPHIQUES ########## */
+.page_lanote_menu--img_titre{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
 .fin_de_menu img{
     margin-right: 10px;
     vertical-align: middle;
@@ -47,6 +53,8 @@
 }
 
 .prelude h3, .point_orgue h3, .mouvement_final h3{
+    display: block;
+    margin: auto;
     line-height: 2px;
 }
 

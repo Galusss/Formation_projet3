@@ -13,6 +13,11 @@ body{
     flex-direction: column;
 }
 
+#contenu_mention{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
 header a, footer a{
     text-decoration: none;
     color: #FDCB46;

@@ -35,7 +35,7 @@ html, body{
     align-items: center;
 }
 
-.items_footer{
+.footer_infos{
     color: #FDCB46;
     display: flex;
     justify-content: space-between;
