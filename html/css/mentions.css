@@ -27,3 +27,11 @@ header a, footer a{
     margin-bottom: 100px;
 }
 
+#contenu_mention h2, #contenu_mention h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: grey;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+}

@@ -49,7 +49,14 @@ a{
 
 .menu_lanote h2, .menu_lanote p{
     margin-bottom: 50px;
+}
 
+.menu_lanote h2{
+    font-size: 35px;
+}
+
+.menu_lanote p{
+    font-size: 28px;
 }
 
 .texte_lanote{
@@ -73,13 +80,15 @@ a{
 }
 
 .menu_lechic p{
-    color: #C77412;   
+    color: #C77412;
+    font-size: 29px;   
 }
 
 .menu_lechic h2{
 	background: -webkit-linear-gradient(left, #D8852E , #905BFD);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: rgba(255, 255, 255,0);
+    -webkit-text-fill-color: rgba(255, 255, 255,0);
+    font-size: 26px;
 }
 
 
@@ -99,12 +108,14 @@ a{
 
 .menu_ledelice p{
     color: #2B91F8;
+    font-size: 30px;
 }
 
 .menu_ledelice h2{
 	background: -webkit-linear-gradient(left, #0431DF, #1789F9);
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
 }
 
 
@@ -124,12 +135,14 @@ a{
 
 .menu_lapalette p{
     color: #72BF56;
+    font-size: 30px;
 }
 
 .menu_lapalette h2{
     background: -webkit-linear-gradient(left, #43973d, #beff7f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 33px;
 }
 
 
@@ -151,5 +164,12 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 500;
+    font-size: 22px;
+}
+@media screen and (max-width: 1050px){ 
+    .btn{
+            width: 200px;
+    }
 }
 

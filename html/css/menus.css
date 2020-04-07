@@ -7,7 +7,15 @@
 @import url("fonts.css"); /* Permet d'importer la feuille css qui met en place les fonts */
 @import url("animation.css"); /* Permet d'importer la feuille css qui met en place les animations */
 
-
+.titre-menus{
+    font-size: 28px;
+    font-family: Arial;
+}
+@media screen and (max-width: 950px){
+    .titre-menus{
+        font-size: 24px;
+    }
+}
 
 /* ########## (MENU 1) "La note enchantée" ########## */
 /* ########## GENERALE ########## */
@@ -16,8 +24,27 @@
     color: #3C1218;
 }
 
+#bloc_page_lanote .prix{
+    font-weight: bold;
+}
+
+#bloc_page_lanote p{
+    font-size: 24px;
+}
+@media screen and (max-width: 750px){
+    #bloc_page_lanote p{
+        font-size: 12px;
+    }
+}
+
 .page_lanote_menu h2{
     text-align: center;
+    font-size: 40px;
+}
+@media screen and (max-width: 750px){
+    .page_lanote_menu h2{
+        font-size: 32px;
+    }
 }
 
 .prelude{
@@ -30,6 +57,20 @@
 
 .fin_de_menu{
     margin-top: 50px;
+    font-size: 35px;
+}
+
+.anim-lanote{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 750px){
+    .anim-lanote{
+        font-size: 20px;
+    }
+    .fin_de_menu{
+        font-size: 25px;
+    }
 }
 
 /* ########## ELEMENTS GRAPHIQUES ########## */
@@ -71,6 +112,7 @@
 
 #bloc_page_lechic p{
     margin-left: 50px;
+    font-size: 16.5px;
 }
 
 .page_lechic_menu h2{
@@ -79,6 +121,7 @@
     -webkit-text-fill-color: transparent;
     margin-top: 30px;
     text-align: center;
+    font-size: 44px;
 }
 
 .en_appetit{
@@ -95,6 +138,18 @@
 .gourmandises{
     margin-top: 80px;
     color: #6E4CCC;
+}
+
+@media screen and (max-width: 750px){
+    .page_lechic_menu h2{
+        font-size: 30px;
+    }
+    .anim-appetit, .anim-papilles, .anim-gourmandises{
+        font-size: 10px;
+    }
+    #bloc_page_lechic p{
+    font-size: 7px;
+    }
 }
 
 /* ELEMENTS GRAPHIQUES */
@@ -123,6 +178,7 @@
 
 #bloc_page_ledelice p{
     margin-left: 50px;
+    font-size: 21px;
 }
 
 .page_ledelice_menu h2{
@@ -132,6 +188,7 @@
     margin-top: 70px;
     margin-bottom: 50px;
     text-align: center;
+    font-size: 50px;
 }
 
 .bien_commencer, .bien_continuer{
@@ -140,6 +197,23 @@
 
 .bien_terminer{
     margin-top: 55px;
+}
+
+.anim-commencer, .anim-continuer, .anim-terminer{
+    font-weight: 500;
+    font-size: 29px;
+}
+
+@media screen and (max-width: 750px){
+    .page_ledelice_menu h2{
+    font-size: 30px;
+    }
+    .anim-commencer, .anim-continuer, .anim-terminer{
+    font-size: 16px;
+    }
+    #bloc_page_ledelice p{
+    font-size: 9px;
+    }
 }
 
 /* ELEMENTS GRAPHIQUES */ 
@@ -171,6 +245,7 @@
 
 #bloc_page_lapalette p{
     margin-left: 50px;
+    font-size: 20px;
 }
 
 .page_lapalette_menu h2{
@@ -180,6 +255,7 @@
     margin-top: 60px;
     margin-bottom: 70px;
     text-align: center;
+    font-size: 50px;
 }
 
 .esquisse, .oeuvre{
@@ -191,6 +267,24 @@
     margin-bottom: 60px;
 }
 
+.anim-esquisse, .anim-oeuvre, .anim-sommet{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 750px){
+    .page_lapalette_menu h2{
+    font-size: 30px;
+    }
+
+    .anim-esquisse, .anim-oeuvre, .anim-sommet{
+    font-size: 18px;
+    }
+
+    #bloc_page_lapalette p{
+    font-size: 8px;
+    }
+}
 /* ELEMENTS GRAPHIQUES */ 
 .img-l-lapalette{
     float: left;
