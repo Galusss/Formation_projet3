@@ -1,4 +1,4 @@
-## Formation_projet3
+## OC_project3
 ### Formation Développeur Web OpenclassRooms (P3)
 
 #### __Exercice :__ Réaliser un site web qui soit responsive en respectant un cahier des charges, des contraintes et une maquette.
